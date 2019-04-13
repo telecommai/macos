@@ -1,0 +1,38 @@
+QPushButton#addBtn
+{
+	background-color: #108ee9;
+	border-radius:4px;
+	font: 75 16pt Microsoft YaHei; 
+	font-size:14px; 
+	font-weight:100 ;
+	color:white;
+}
+
+QLabelHeader#headerLabel
+{
+	background-color:rgba(0,0,0,0);
+}
+
+QLabel#iconLabel
+{
+	border-image: url(:/addPerson/Resources/add/GrpNum.png);
+	background-color:rgba(0,0,0,0);
+}
+
+QPushButton#nameBtn
+{
+	border:none;
+	text-align: left;
+	color:#108ee9;
+	font: 75 16pt Microsoft YaHei; 
+	font-size:14px; 
+	background-color:rgba(0,0,0,0);
+}
+
+QLabel#noteLabel
+{
+	color:#999999;
+	font: 75 16pt Microsoft YaHei; 
+	background-color:rgba(0,0,0,0);
+	font-size:12px; 
+}

@@ -1,0 +1,164 @@
+QWidget#backWidget_2
+{
+background-color: #fafafa;
+border: 1px solid #6a82a5;
+border-radius: 15px;
+}
+QPlainTextEdit
+{
+background-color: rgba(0,0,0, 0);
+border: none;
+color: #188ce1;
+}
+QPushButton#closeBtn
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+background-color: #fafafa;
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#titleLabel
+{
+color: #6a82a5;
+background-color: #fafafa;
+}
+QWidget#mainWidget_2
+{
+background-color: #fafafa;
+border-bottom-left-radius: 15px;
+border-bottom-right-radius: 15px;
+border: 1px solid #6a82a5;
+border-top: none;
+}
+
+QWidget
+{
+background-color: #fafafa;
+}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:9px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:9px;
+    background: #fafafa;;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:9px;
+    background:#ececec;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #fafafa;
+    border-radius:4px;
+}
+QPushButton#titleBtn
+{
+border: none;
+color: #6a82a5;
+}
+QLabel#timeLabel
+{
+color: #6a82a5;
+}
+QPushButton#enterBtn
+{
+background-color: #ececec;
+color: #000000;
+border: none;
+border-radius: 10px;
+}
+QWidget#IDWidget
+{
+border: none;
+border-top: 1px solid #6a82a5;
+}
+QLabel#label
+{
+color: #6a82a5;
+}
+QLabel#valueLabel
+{
+color: #188ce1;
+}
+QWidget#remarkWidget
+{
+border: none;
+border-bottom: 1px solid #6a82a5;
+}
+QWidget#turnOutWidget
+{
+border: none;
+}
+QWidget#turnInWidget
+{
+border: none;
+}
+QLabel#label_3
+{
+color: #6a82a5;
+}
+QLabel#remarkLabel
+{
+color: #188ce1;
+}
+QLabel#label_2
+{
+color: #6a82a5;
+}
+QLabel#mineLabel
+{
+color: #188ce1;
+}
+QLabel#label_5
+{
+color: #6a82a5;
+}
+QLabel#turnInEdit
+{
+color: #188ce1;
+}
+QLabel#label_4
+{
+color: #6a82a5;
+}
+QPlainTextEdit#turnOutEdit
+{
+color: #188ce1;
+}
+QLabel#label_6
+{
+color: #6a82a5;
+}
+QLabel#IDLabel
+{
+color: #188ce1;
+}
+QLabel#label_7
+{
+color: #6a82a5;
+}
+QLabel#blockLabel
+{
+color: #188ce1;
+}

@@ -1,0 +1,71 @@
+QLabel#labelTitle1
+{
+	color:#108ee9;
+}
+QLabel#labelUse
+{
+	color:#108ee9;
+}
+QLabel#labelAddress
+{
+	color:#108ee9;
+}
+QLabel#labelPort
+{
+	color:#108ee9;
+}
+QLabel#labelAccount
+{
+	color:#108ee9;
+}
+QLabel#labelPsw
+{
+	color:#108ee9;
+}
+QRadioButton#radioButtonOff
+{
+	color:#108ee9;
+}
+QRadioButton#radioButtonOn
+{
+	color:#108ee9;
+}
+QLineEdit#lineEditAddress
+{
+	border:none;
+	border-bottom: 1px solid #108ee9;
+	color:#108ee9;
+	background-color: rgba(0,0,0,0);
+}
+QLineEdit#lineEditPort
+{
+	border:none;
+	border-bottom: 1px solid #108ee9;
+	color:#108ee9;
+	background-color: rgba(0,0,0,0);
+}
+QLineEdit#lineEditAccount
+{
+	border:none;
+	border-bottom: 1px solid #108ee9;
+	color:#108ee9;
+	background-color: rgba(0,0,0,0);
+}
+QLineEdit#lineEditPsw
+{
+	border:none;
+	border-bottom: 1px solid #108ee9;
+	color:#108ee9;
+	background-color: rgba(0,0,0,0);
+}
+QPushButton#pushButtonConfirm
+{
+	background-color:#165da3;
+	color:white;
+	border-radius:5px;
+}
+QPushButton#pushButtonConfirm:hover
+{
+	background-color:#108ee9;
+	color:blue;
+}

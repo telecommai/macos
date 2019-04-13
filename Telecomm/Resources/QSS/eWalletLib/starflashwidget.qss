@@ -1,0 +1,28 @@
+QLabel
+{
+color: #000000;
+}
+QLabel#accountLabel
+{
+color: #1277c2;
+}
+QLabel#addressLabel
+{
+color: #44608a;
+}
+QPushButton#copyBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/copy.png);
+}
+QLabel#tipLabel
+{
+color: #44608a;
+background-color: white;
+border-radius: 4px;
+padding: 0px 2px 0px 2px;
+margin-left: 6px;
+}
+QLabel#idLabel
+{
+color: #44608a;
+}

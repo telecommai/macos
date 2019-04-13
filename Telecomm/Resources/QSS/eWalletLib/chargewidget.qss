@@ -1,0 +1,80 @@
+QWidget#backWidget
+{
+background-color: #fafaf9;
+border: none;
+border-radius: 15px;
+}
+QPushButton#closeBtn
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#label_3
+{
+color: #6a82a5;
+background-color: rgba(0,0,0, 0);
+}
+QComboBox 
+{
+border: 1px solid #6a82a6;;
+background-color: rgba(0,0,0, 0);
+color: #6a82a5;
+}
+QComboBox::drop-down
+{
+border-image: url(:/TreeIcon/Resources/TreeIcon/tree_open.png);
+border: none;
+}
+QComboBox QAbstractItemView::item
+{
+background-color: #fafaf9;
+color: #6a82a6;
+}
+QComboBox QAbstractItemView::item:selected
+{
+background-color: #eceae8;
+color: #6a82a6;
+}
+QLabel#label_2
+{
+color: #6a82a5;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#label
+{
+color: #6a82a5;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#enterBtn
+{
+color: white;
+border: none;
+background-color: #eceae8;
+border-radius: 8px;
+}
+QLabel#label_1
+{
+color: #9a9691;
+background-color: rgba(0,0,0, 0);
+}
+QWidget#midWidget
+{
+background-color: rgba(0,0,0, 0);
+border: none;
+border-bottom: 1px solid #6a82a5;
+}
+QLabel#coinLabel
+{
+color: #6a82a5;
+background-color: rgba(0,0,0, 0);
+}
+QLineEdit#lineEdit
+{
+border: none;
+color: #000000;
+background-color: rgba(0,0,0, 0);
+}

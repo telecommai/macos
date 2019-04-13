@@ -1,0 +1,128 @@
+QWidget#perProfileWidget
+{
+background-color: #0b1d37;
+}
+
+QWidget#backWidget
+{
+background-color: #0066cb;
+}
+
+QLabelHeader#headerLabel
+{
+background-color: rgba(0,0,0,0);
+}
+
+QWidget#nickWidget
+{
+background-color: #ffffff;
+}
+
+QLabel#label
+{
+border-image: url(:/Mine/Resources/mine/space.png);
+}
+
+QLineEdit
+{
+border: none;
+color: #000000;
+}
+QLineEdit:focus
+{
+border: none;
+}
+
+QPushButton
+{
+border: none;
+}
+
+QPushButton
+{
+border: none;
+}
+
+QLabel#signLabel
+{
+color: #999999;
+}
+
+QWidget#spaceWidget
+{
+background-color: white;
+}
+
+QWidget#midwidget
+{
+background-color: #ffffff;
+}
+
+QLabel#label_7
+{
+color: #999999;
+}
+
+QLabel#lianxinLabel
+{
+color: #333333;
+}
+
+QFrame#line
+{
+color: #eeeeee;
+}
+
+QLabel#label_6
+{
+color: #999999;
+}
+
+QLabel#addressLabel
+{
+color: #333333;
+}
+
+QPushButton#copyAddressBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/copy.png);
+}
+
+
+
+QLabel#copyLabel
+{
+color: #44608a;
+background-color: white;
+border-radius: 4px;
+padding: 0px 2px 0px 2px;
+margin-left: 6px;
+}
+
+
+QWidget#bottomWidget
+{
+background-color: white;
+}
+
+QPushButton#perAddBtn
+{
+background-color: #108ee9;
+border: none;
+border-radius: 18px;
+color: white;
+}
+
+QPushButton#perChatBtn
+{
+background-color: #108ee9;
+border: none;
+border-radius: 18px;
+color: white;
+}
+
+QLabel#tipLabel
+{
+color: #e4ba7b;
+}
+

@@ -1,0 +1,75 @@
+QWidget#backWidget
+{
+background-color: #fafafa;
+}
+QWidget#bottomWidget
+{
+background-color: white;
+}
+QPushButton#applyBtn
+{
+background-color: #108ee9;
+border: none;
+border-radius: 18px;
+color: white;
+}
+QLabel#tipLabel
+{
+color: #999999;
+}
+QWidget#midwidget
+{
+background-color: #fafafa;
+}
+QLabel#addressLabel
+{
+color: #999999;
+}
+QPushButton#copyAddressBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/copy.png);
+}
+QLabel#label_6
+{
+color: black;
+}
+QLabel#label_7
+{
+color: black;
+}
+QLabel#lianxinLabel
+{
+color: #999999;
+}
+QLine#line
+{
+color: #ebebec;
+}
+QWidget#spaceWidget
+{
+background-color: white;
+}
+QLabelHeader#headerLabel
+{
+background-color: rgba(0,0,0,0);
+}
+QWidget#nickWidget
+{
+background-color: #fafafa;
+}
+QLabel#label
+{
+border-image: url(:/Mine/Resources/mine/space.png);
+}
+QLabel#nameLabel
+{
+color: black;
+}
+QLabel#signLabel
+{
+color: #999999;
+}
+QLabel#starLabel
+{
+background-color: #fafafa;
+}

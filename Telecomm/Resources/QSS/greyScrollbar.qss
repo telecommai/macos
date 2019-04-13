@@ -1,0 +1,67 @@
+
+QScrollBar:vertical
+{
+	border:none;
+    width:10px;
+    background:rgba(0,0,0,0%);
+    /*margin:0px,0px,0px,0px;*/
+    padding-top:9px;   
+    padding-bottom:9px;
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background: #b8b8b8;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background: #b8b8b8;   
+    border-radius:4px;
+    min-height:20;
+}
+
+QScrollBar::add-line:vertical   
+{
+	border:none;
+	/*
+    height:9px;width:12px;
+    border-image:url(":/ScrollBar/Resources/scrollbar/downward_arrow_hover.png");
+    subcontrol-position:bottom;
+	*/
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+	/*
+    height:9px;width:12px;
+    border-image:url(":/ScrollBar/Resources/scrollbar/upward_arrow_hover.png");
+    subcontrol-position:top;
+	*/
+}
+QScrollBar::add-line:vertical:hover   
+{
+	border:none;
+	/*
+    height:9px;width:12px;
+    border-image:url(":/ScrollBar/Resources/scrollbar/downward_arrow_hover.png");
+    subcontrol-position:bottom;
+	*/
+}
+QScrollBar::sub-line:vertical:hover  
+{
+	border:none;
+	/*
+    height:9px;width:12px;
+    border-image:url(":/ScrollBar/Resources/scrollbar/upward_arrow_hover.png");
+    subcontrol-position:top;
+	*/
+}
+
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background:rgba(0,0,0,10%);
+    border-radius:4px;
+}

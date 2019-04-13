@@ -1,0 +1,97 @@
+QWidget
+{
+background-color:white
+}
+
+QLabel#label_6
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+color:#6a82a5;
+}
+
+QComboBox
+{
+border: 1px solid #6a82a5;;
+border-radius:4px;
+background-color: rgba(0,0,0, 0);
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+color:#6a82a5;
+}
+QComboBox::drop-down
+{
+border-image: url(:/TreeIcon/Resources/TreeIcon/tree_open.png);
+border: none;
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+}
+QComboBox QAbstractItemView::item
+{
+background-color: #fafafa;
+color: #000000;
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+}
+QComboBox QAbstractItemView::item:selected
+{
+background-color: #eaeaea;
+color: #000000;
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+}
+
+QLabel#label_7
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+color:#6a82a5;
+}
+
+QLabel#label
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+color:#6a82a5;
+}
+
+QLineEdit#fileLocation
+{
+border: 1px solid #6a82a5;
+border-radius:4px;
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+font-weight:100 ;
+color:#6a82a5;
+}
+
+QPushButton#changePath
+{
+background-color: #108ee9;
+border-radius:4px;
+font-family:Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+
+QPushButton#openFile
+{
+background-color: #108ee9;
+border-radius:4px;
+font-family:Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+
+QPushButton#clear
+{
+background-color:#108ee9;
+border-radius:4px;
+font-family:Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+

@@ -1,0 +1,236 @@
+QLabel
+{
+	background-color: white;
+    color:black;
+}
+
+QPushButton#chatPageBtn
+{
+	border: none;
+	color:black;
+}
+QPushButton#chatPageBtn:checked
+{
+	bold: weight;
+	border-bottom: 1px solid #0066cb;
+	color: #0066cb;
+}
+
+QPushButton#filePageBtn
+{
+	border: none;
+	color:black;
+}
+QPushButton#filePageBtn:checked
+{
+	bold: weight;
+	border-bottom: 1px solid #0066cb;
+	color: #0066cb;
+}
+
+QWidget#mGroupLabelBK
+{
+	border-bottom: 2px solid #ebebec;
+}
+
+QToolButton#mTButtonGroupChat
+{
+    text-align : left;
+    border:none;
+    color: #108ee9;
+}
+
+QToolButton#mTButtonGroupChat:hover
+{
+    background-color:rgba(204, 204, 204, 30%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupChat:pressed
+{
+    background-color:rgba(204, 204, 204, 80%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupNotice
+{
+    text-align : left;
+    border:none;
+    color: #108ee9;
+}
+QToolButton#mTButtonGroupNotice:hover
+{
+    background-color:rgba(204, 204, 204, 30%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupNotice:pressed
+{
+    background-color:rgba(204, 204, 204, 80%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupPic
+{
+    text-align : left;
+    border:none;
+    color: #108ee9;
+}
+QToolButton#mTButtonGroupPic:hover
+{
+    background-color:rgba(204, 204, 204, 30%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupPic:pressed
+{
+    background-color:rgba(204, 204, 204, 80%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupFile
+{
+    text-align : left;
+    border:none;
+    color: #108ee9;
+}
+QToolButton#mTButtonGroupFile:hover
+{
+    background-color:rgba(204, 204, 204, 30%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupFile:pressed
+{
+    background-color:rgba(204, 204, 204, 80%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupTalk
+{
+    text-align : left;
+    border:none;
+    color: #108ee9;
+}
+QToolButton#mTButtonGroupTalk:hover
+{
+    background-color:rgba(204, 204, 204, 30%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupTalk:pressed
+{
+    background-color:rgba(204, 204, 204, 80%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupMore
+{
+    text-align : left;
+    border:none;
+    color: #108ee9;
+}
+QToolButton#mTButtonGroupMore:hover
+{
+    background-color:rgba(204, 204, 204, 30%);
+	color: #108ee9;
+}
+QToolButton#mTButtonGroupMore:pressed
+{
+    background-color:rgba(204, 204, 204, 80%);
+	color: #108ee9;
+}
+
+QPushButton#mPButtonGroupFont
+{
+    border-image:url(":/PerChat/Resources/person/font.png") 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupFont:hover
+{
+    border:1px;
+}
+QPushButton#mPButtonGroupExpress
+{
+    border-image:url(":/PerChat/Resources/person/biaoqing.png") 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupExpress:hover
+{
+    border:1px;
+}
+QPushButton#mPButtonGroupShake
+{
+    border-image:url(":/PerChat/Resources/person/doudong.png") 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupShake:hover
+{
+    border:1px;
+}
+
+QPushButton#mPButtonGroupRedPacket
+{
+    border-image: url(:/ewallet/Resources/ewallet/pwrWidget/redbag.png) 0 0 0 0 stretch stretch;
+    border: 1px;
+}
+QPushButton#mPButtonGroupRedPacket:hover
+{
+    border: 2px;
+}
+QPushButton#mPButtonGroupPicture
+{
+    border-image:url(":/PerChat/Resources/person/picture.png") 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupPicture:hover
+{
+    border:1px;
+}
+QPushButton#mPButtonGroupCutPicture
+{
+    border-image:url(":/PerChat/Resources/person/jietu.png") 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupCutPicture:hover
+{
+    border:1px;
+}
+QPushButton#mPButtonGroupSpeak
+{
+    border-image:url(":/GroupChat/Resources/groupchat/noSpeak.png") 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupSpeak:hover
+{
+    border:1px;
+}
+QPushButton#mPButtonGroupSpeak:checked
+{
+    border-image:url(":/GroupChat/Resources/groupchat/noSpeak_checked.png") 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupFile
+{
+border-image: url(:/PerChat/Resources/person/wenjian.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupFile:hover
+{
+border: 1px;
+}
+
+QTextEdit#mTextEditGroup
+{
+    border:none;
+}
+QWidget#GroupChatShow
+{
+    background-color:rgba(255, 255, 255);
+}
+QListWidget#mGroupUserlistWidget
+{
+    border:1px;
+    background-color: #fafafa;
+}
+QLabel#mLabelGroupNum
+{
+    background-color:#fafafa;
+	color: black;
+}
+
+QPushButton#mPButtonGroupCloseW
+{
+    color:white;
+    border-image:url(:/Login/Resources/login/button_login_normal.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupCloseW:hover
+{
+     border-image:url(:/Login/Resources/login/button_login_hover.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonGroupCloseW:pressed
+{
+    border-image:url(:/Login/Resources/login/button_login_down.png) 0 0 0 0 stretch stretch;
+}

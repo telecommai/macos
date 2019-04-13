@@ -1,0 +1,234 @@
+QScrollBar:vertical
+{
+	border:none;
+    width:10px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background-color: #D2D2D2;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;  
+	background-color: #D2D2D2;
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #ececec;
+    border-radius:4px;
+}
+
+QWidget#bottomWidget
+{
+	background-color: #ececec;
+}
+QPushButton
+{
+border: none;
+color: #128DEA;
+padding: -1px;
+}
+
+QPushButton:checked
+{
+color: #000000;
+}
+
+QPushButton#optionBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/option.png);
+border-width: 5;
+}
+
+QWidget#pwrPage
+{
+background-color: #ececec;
+}
+QScrollArea
+{
+border: none;
+}
+QWidget#scrollAreaWidgetContents
+{
+background-color: #ececec;
+}
+QWidget#cardWidget
+{
+background-color: #FFF;
+}
+QLabel#label_16
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/code.png);
+}
+QLabel#label_18
+{
+color: #B47800;
+}
+QLabel#label_21
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QWidget#hostingWidget
+{
+background-color: #FFF;
+}
+QWidget#myDeviceWidget
+{
+background-color: #FFF;
+}
+QLabel#label_28
+{
+color: #B47800;
+}
+QLabel#label_29
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QLabel#label_30
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/hosting.png);
+}
+QLabel#label_31
+{
+color: #B47800;
+}
+QLabel#label_32
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QLabel#label_33
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/mydevice.png);
+}
+QWidget#oneKeyWidget
+{
+background-color: #FFF;
+}
+QLabel#label_17
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/onekey.png);
+}
+QLabel#label_20
+{
+color: #B47800;
+}
+QLabel#label_24
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QWidget#profileWidget
+{
+background-color: #FFF;
+}
+QLabel#label_12
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/profile.png);
+}
+QLabel#label_13
+{
+color: #B47800;
+}
+QLabel#label_14
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QWidget#redBagWidget
+{
+background-color: #FFF;
+}
+QLabel#label_25
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/redbag.png);
+}
+QLabel#label_26
+{
+color: #B47800;
+}
+QLabel#label_27
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QWidget#safeWidget
+{
+background-color: #FFF;
+}
+QLabel#label_19
+{
+color: #B47800;
+}
+QLabel#label_22
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/safe.png);
+}
+QLabel#label_23
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QWidget#tradeWidget
+{
+background-color: #ffffff;
+}
+QWidget#label_2
+{
+color: #B47800;
+}
+QWidget#turnWidget
+{
+background-color: #ffffff;
+border:none;
+}
+QWidget#turnInWidget
+{
+border: none;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+margin-right: 10px;
+}
+QLabel#label_6
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/walletTurnIn.png);
+}
+
+QWidget#turnOutWidget
+{
+border: none;
+border-top: 1px solid #eeeeee;
+border-bottom: 1px solid #eeeeee;
+margin-left: 10px;
+}
+QLabel#label_7
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/walletTurnOut.png);
+}
+QWidget#label_8
+{
+color: #B47800;
+}
+QFrame#line
+{
+margin-top: 10px;
+margin-bottom: 10px;
+color: #eeeeee;
+}
+QStackedWidget#stackedWidget
+{
+background-color: #f5f5f5;
+}
+
+
+

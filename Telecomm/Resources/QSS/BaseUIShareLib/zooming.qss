@@ -1,0 +1,135 @@
+
+
+QLabel#iconLabel
+{
+border-image: url(':/Login/Resources/login/logo.png');
+}
+
+QLabel#titleLabel
+{
+background-color: rgba(0,0,0,0);
+color: rgb(255, 255, 255);
+}
+
+QLabel#dateLabel
+{
+color: #108ee9;
+}
+
+QPushButton#minBtn
+{
+background-color: rgba(0,0,0,0);
+border-image: url(':/PerChat/Resources/person/minsize03.png');
+}
+QPushButton#minBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/minsize35.png');
+}
+
+QPushButton#maxBtn
+{
+background-color: rgba(0,0,0,0);
+border-image: url(':/PerChat/Resources/person/maxsize04.png');
+}
+QPushButton#maxBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/maxsize36.png');
+}
+
+QPushButton#closeBtn
+{
+background-color: rgba(0,0,0,0);
+border-image: url(':/PerChat/Resources/person/close01.png');
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+
+QGridLayout#gLauout_graphicsView
+{
+background-color: #042439;
+}
+
+QWidget#PicWidget
+{
+background-color: #042439;
+}
+QWidget#FunBtn
+{
+background-color: #183257;
+}
+QWidget#titleBar
+{
+background-color: #183257;
+border: none;
+}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background:#073552;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#073552;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #0a182d;
+    border-radius:4px;
+}
+
+QScrollBar:horizontal
+{
+	border:none;
+    height:12px;
+    background:rgba(0,0,0,0%);
+}
+QScrollBar::handle:horizontal
+{
+    height:12px;
+    background:#073552;
+    border-radius:4px;  
+    min-width:20;
+}
+QScrollBar::handle:horizontal:hover
+{
+    height:12px;
+    background:#073552;   
+    border-radius:4px;
+    min-width:20;
+}
+QScrollBar::add-line:horizontal  
+{
+	border:none;
+}
+QScrollBar::sub-line:horizontal  
+{
+	border:none;
+}
+QScrollBar::add-page:horizontal,QScrollBar::sub-page:horizontal   
+{
+    background: #0a182d;
+    border-radius:4px;
+}

@@ -1,0 +1,48 @@
+QWidget#TurnInWidget
+{
+background-color: #fafafa;
+}
+QWidget#mainWidget
+{
+border: 1px solid #6a82a5;
+background-color: #fafafa;
+border-radius: 10px;
+}
+QLabel
+{
+background-color: #fafafa;
+}
+QLabel#codeLabel
+{
+background-color: rgb(255, 255, 255);
+padding: 10px;
+}
+QPushButton#amountBtn
+{
+color: #6a82a5;
+border: none;
+background-color: #fafafa;
+}
+QPushButton#changeBtn
+{
+color: #6a82a5;
+border: none;
+background-color: #fafafa;
+}
+QLabel#addressLabel
+{
+color: #6a82a5;
+}
+QFrame#line
+{
+color: #6a82a5;
+}
+QLabel#tipLabel
+{
+color: #6a82a5;
+}
+QLabel#walletLabel
+{
+color: #6a82a5;
+border: none;
+}

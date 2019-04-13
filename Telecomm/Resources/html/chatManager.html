@@ -1,0 +1,73 @@
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <head>
+     	<script charset="gb2312"  language="javascript" type="text/javascript" src="qrc:/html/Resources/html/qwebchannel.js"></script>
+        <style>
+            .webview-class {
+					position: absolute; 
+					top: 0; 
+					left: 0;
+					width: 100%;
+					height: 100%;
+					border: 0; 
+            }
+        </style>
+        <script language="JavaScript">
+			function HideAllIFrames()
+			{
+				var webviews = document.getElementsByClassName("webview-class");//获取到的是一个类数组
+				for(var i=0;i<webviews.length;i++){
+				  webviews[i].style.visibility = "hidden";
+				}
+			}
+			
+			function SwitchChatIFrame(id)
+			{
+				HideAllIFrames();
+				var frm = document.getElementById("chat_"+id);
+				if(frm){
+					frm.style.visibility= "visible";
+				}
+			}
+			
+			function ChatIFrame(id)
+			{
+				return document.getElementById("chat_"+id).contentWindow;
+			}
+
+			function OnChatIFrameLoad(id)
+			{
+				window.channel_objects["chat_manager"].slotOnChatIFrameLoad(id);
+			}
+			
+			
+			function AddChatIFrame(id)
+			{
+				 new QWebChannel(qt.webChannelTransport, function(channel) {
+       			 	window.channel_objects = channel.objects;
+      		     });
+
+     		     document.body.insertAdjacentHTML("beforeEnd",'   <iframe onload="OnChatIFrameLoad('+id+')" id="chat_'+id+'" class="webview-class" src="qrc:/html/Resources/html/chat.html" frameBorder=0 scrolling="yes" width="100%" style="visibility:hidden">   ');
+			}
+			
+			function RemoveChatIFrame(id)
+			{
+				var frm = document.getElementById("chat_"+id);
+				frm.parentNode.removeChild(frm);
+			}
+			
+            window.onload = function() {
+
+			};
+
+        </script>
+    </head>
+    
+    <!-- <body style="background:#042439"> -->
+
+    <!-- </body> -->
+	 <body style="background:#ffffff">
+
+    </body>
+
+</html>

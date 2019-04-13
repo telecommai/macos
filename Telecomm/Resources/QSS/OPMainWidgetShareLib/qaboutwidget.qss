@@ -1,0 +1,27 @@
+QWidget
+{
+background-color:white;
+}
+
+QPushButton
+{
+	background-color:#108ee9;
+	color:white;
+	border-radius:5px
+}
+
+QLabel#label_3
+{
+image: url(':/mainWidget/Resources/mainWidget/title_logo.png');
+}
+
+QLabel#verLabel
+{
+color:#6a82a5;
+}
+
+QLabel#RenCodeLabel
+{
+background-color:white;
+}
+

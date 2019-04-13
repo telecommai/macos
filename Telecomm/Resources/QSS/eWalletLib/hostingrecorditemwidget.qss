@@ -1,0 +1,24 @@
+QLabel#timeLabel
+{
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#typeLabel
+{
+color: #128feb;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#numLabel
+{
+color: #128feb;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#stateLabel
+{
+color: #128feb;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#iconLabel
+{
+background-color: rgba(0,0,0, 0);
+}

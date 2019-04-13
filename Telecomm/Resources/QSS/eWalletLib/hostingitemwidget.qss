@@ -1,0 +1,35 @@
+QLabel#freezeNumLabel
+{
+color: #445F8A;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#usefulNumLabel
+{
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#label_3
+{
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#label_4
+{
+color: #445F8A;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#iconLabel
+{
+background-color: rgba(0,0,0, 0);
+}
+QLabel#nameLabel
+{
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#nextBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+background-color: rgba(0,0,0, 0);
+margin-right: 10px;
+}

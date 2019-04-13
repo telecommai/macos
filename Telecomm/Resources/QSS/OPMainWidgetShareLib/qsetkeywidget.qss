@@ -1,0 +1,26 @@
+QWidget
+{
+background-color:white
+}
+
+QPushButton
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+color:rgb(0, 0, 0);
+background-color:#3874bc;
+}
+
+QLabel#label_2
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:12px; 
+color:rgb(0, 0, 0);
+}
+
+QLabel#label
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:16px; 
+color:rgb(0, 0, 0);
+}

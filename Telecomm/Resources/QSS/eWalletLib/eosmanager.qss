@@ -1,0 +1,23 @@
+QMenu#childMenu
+{
+background-color: #ececec;
+color: #000000;
+}
+QMenu#childMenu::item:selected
+{
+color: #3A89D6;
+}
+QMenu#childMenu::item:checked
+{
+color: #3A89D6;
+}
+
+QMenu#menu
+{
+background-color: #fafafa;
+color: #999999;
+}
+QMenu#menu::item:selected
+{
+color: #3A89D6;
+}

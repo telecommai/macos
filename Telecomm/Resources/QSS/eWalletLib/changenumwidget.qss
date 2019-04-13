@@ -1,0 +1,39 @@
+QWidget#ChangeNumWidget
+{
+background-color: rgba(0,0,0,0);
+}
+QWidget#backWidget
+{
+background-color: #f6f5f4;
+border: none;
+border-radius: 15px;
+}
+QPushButton#enterBtn
+{
+color: #000000;
+border: none;
+background-color: #f6f5f4;
+border-radius: 4px;
+}
+QLabel#label_1
+{
+color: #6a82a5	;
+background-color: rgba(0,0,0, 0);
+}
+QWidget#midWidget
+{
+background-color: rgba(0,0,0, 0);
+border: none;
+border-bottom: 1px solid #6a82a5;
+}
+QLabel#coinLabel
+{
+background-color: rgba(0,0,0,0);
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/balance.png);
+}
+QLineEdit#lineEdit
+{
+border: none;
+color: #9a9691;
+background-color: rgba(0,0,0, 0);
+}

@@ -1,0 +1,135 @@
+QWidget#widget
+{
+background-color: #fafafa;
+border: 1px solid #6a82a5;
+border-radius: 15px;
+color: #6a82a5;
+}
+QPushButton#enterBtn
+{
+background-color: #D2D2D2;
+color: #000000;
+border: none;
+border-radius: 10px;
+}
+QWidget#widget1
+{
+background-color:#f0f0f0;
+border: none;
+}
+QLabel#transIDLabel
+{
+color: #6a82a5;
+}
+QPlainTextEdit#transIDLabel_value
+{
+color: #188ce1;
+background-color:#f0f0f0;
+border:none;
+}
+QWidget#widget2
+{
+background-color:#f0f0f0;
+border: none;
+border-bottom: 1px solid #6a82a5;
+}
+QLabel#timeLabel
+{
+color: #6a82a5;
+}
+QLabel#timeLabl_value
+{
+color: #188ce1;
+border:none;
+padding-left:1px;
+}
+QWidget#widget4
+{
+background-color:#f0f0f0;
+border: none;
+border-bottom: 1px solid #6a82a5;
+}
+QLabel#otherAddressLabel
+{
+color: #6a82a5;
+}
+QPlainTextEdit#otherAddressLabel_value
+{
+border:none;
+background-color:#f0f0f0;
+color: #188ce1;
+}
+QWidget#widget5
+{
+background-color:#0066c6;
+border-top-left-radius: 15px;
+border-top-right-radius: 15px;
+border: 1px solid rgb(0,0,0);
+}
+QPushButton#closeBtn
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+background-color: #0066c6;
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#titleLabel
+{
+color: #fafafa;
+}
+QLabel#PicLabel
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrOut.png);
+}
+QLabel#valueLabel
+{
+color: #6a82a5;
+}
+QWidget#widget7
+{
+background-color:#f0f0f0;
+border: none;
+border-bottom: 1px solid #6a82a5;
+}
+QLabel#otherIdlabel
+{
+color: #6a82a5;
+}
+QLabel#otherIdLabel_value
+{
+color: #188ce1;
+border:none;
+padding-left:1px;
+}
+QWidget#widget8
+{
+background-color:#f0f0f0;
+border: none;
+border-bottom: 1px solid #6a82a5;
+}
+QLabel#myIdLabel
+{
+color: #6a82a5;
+}
+QLabel#myIdLabel_value
+{
+color: #188ce1;
+border:none;
+padding-left:1px;
+}
+QWidget#widget9
+{
+background-color:#f0f0f0;
+}
+QLabel#myAddressLabel
+{
+color: #6a82a5;
+}
+QPlainTextEdit#myAddressLabel_value
+{
+background-color:#f0f0f0;
+border:none;
+color: #188ce1;
+}

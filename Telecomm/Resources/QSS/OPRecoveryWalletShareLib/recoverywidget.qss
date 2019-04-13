@@ -1,0 +1,117 @@
+QPushButton#enterBtn
+{
+color: white;
+background-color: #165ca3;
+border: none;
+border-radius: 6px;
+}
+QPushButton#enterBtn:hover
+{
+color: #163e70;
+}
+
+QPushButton#closeBtn
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#closeBtn:hover
+{
+	border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+
+QWidget#tabWidget
+{
+border: none;
+border-bottom: 1px solid #6883a5;
+}
+
+QPushButton#wordBtn
+{
+border:none;
+color: #6883a5;
+}
+QPushButton#wordBtn:checked
+{
+color: #165ca3;
+font-weight: bold;
+border-bottom: 1px solid #165ca3;
+}
+
+QPushButton#privateKeyBtn
+{
+border:none;
+color: #6883a5;
+}
+QPushButton#privateKeyBtn:checked
+{
+color: #165ca3;
+font-weight: bold;
+border-bottom: 1px solid #165ca3;
+}
+
+QLabel#label
+{
+color: #95adcb;
+}
+
+QStackedWidget
+{
+background-color: rgba(0,0,0,0);
+}
+
+QLineEdit
+{
+background-color: rgba(0,0,0,0);
+color: black;
+border: 1px solid #6883a5;
+border-radius: 4px;
+}
+QLineEdit:focus
+{
+border-color: #0066cb;
+}
+
+QLabel#label_2
+{
+color: #6883a5;
+}
+
+QPlainTextEdit
+{
+background-color: rgba(0,0,0,0);
+color: black;
+border: 1px solid #6883a5;
+border-radius: 4px;
+}
+QPlainTextEdit:focus
+{
+border-color: #0066cb;
+}
+
+QLabel#backLabel
+{
+border-image: url(:/ewallet/Resources/ewallet/walletBack.png);
+border-radius: 15px;
+}
+
+QMenu#m_Menu
+{
+background-color: #fafafa;
+color: #999999;
+}
+QMenu#m_Menu::item
+{
+padding:4px;
+padding-left:20px;
+padding-right:30px;
+}
+QMenu#m_Menu::item:selected
+{
+color: #000000;
+border:none;
+padding:4px;
+padding-left:20px;
+padding-right:30px;
+}
+	
+

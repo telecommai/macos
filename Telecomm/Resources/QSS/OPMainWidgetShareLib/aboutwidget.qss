@@ -1,0 +1,33 @@
+QLabel#label
+{
+border-image: url(':/mainWidget/Resources/mainWidget/title_logo.png');
+}
+
+QLabel#label_2
+{
+background-color: rgb(24, 50, 87);
+}
+
+QLabel#label_3
+{
+color: rgb(106, 130, 166);
+}
+
+QLabel#numberLabel
+{
+	color: rgb(106, 130, 166);
+}
+
+QPushButton#closeBtn
+{
+border-image: url(':/PerChat/Resources/person/close01.png');
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+
+QLabel#label_5
+{
+background-color: white;
+}

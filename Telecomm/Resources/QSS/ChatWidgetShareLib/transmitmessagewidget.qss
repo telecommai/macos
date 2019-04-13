@@ -1,0 +1,135 @@
+QWidget#TransmitMessageWidget
+{
+background-color: #fafafa;
+}
+QListWidget::item:selected
+{
+padding: -1px;
+background-color: #eaeaea;
+}
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background:#eaeaea;
+    border-radius:6px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#eaeaea;   
+    border-radius:6px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: rgba(0,0,0, 0);
+    border-radius:4px;
+}
+QWidget#buddyList
+{
+background-color: #fafafa;
+border: none;
+}
+QWidget#groupList
+{
+background-color: #fafafa;
+border:none;
+}
+QWidget#messageList
+{
+background-color: #fafafa;
+border: none;
+}
+QWidget#searchList
+{
+background-color: #fafafa;
+border: none;
+}
+QPushButton#cancelBtn
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 5px;
+}
+QLine#line
+{
+color: #ebebec;
+}
+QPushButton#enterBtn
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 5px;
+}
+QWidget#titleBar
+{
+background-color: #0066cb;
+border: none;
+}
+QPushButton#closeBtn
+{
+border-image: url(':/PerChat/Resources/person/close01.png');
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+QLabel#iconLabel
+{
+border-image: url(':/Login/Resources/login/logo.png');
+}
+QLabel#titleLabel
+{
+color: rgb(255, 255, 255);
+background-color: rgba(0,0,0, 0);
+}
+QWidget#searchLineEdit
+{
+border: 1px solid #eeeeee;
+}
+QWidget#line
+{
+color: #eeeeee;
+}
+QPushButton#buddyBtn
+{
+background-colorL#fafafa;
+border:none;
+color:#999999;
+}
+QPushButton#buddyBtn:checked
+{
+background-colorL#fafafa;
+border:none;
+color:#000000;
+}
+QPushButton#groupBtn
+{
+background-colorL#fafafa;
+border:none;
+color:#999999;
+}
+QPushButton#groupBtn:checked
+{
+background-colorL#fafafa;
+border:none;
+color:#000000;
+}

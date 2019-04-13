@@ -1,0 +1,26 @@
+QWidget#DeviceItemWidget
+{
+background-color: #fafaf9;
+border-bottom: 1px solid grey;
+}
+QLabel#nameLabel
+{
+color:#6A82A7;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#timeLabel
+{
+color:#6A82A7;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#downLineBtn
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+color:#6A82A7;
+text-align: center;
+}
+QLabel#iconLabel
+{
+background-color: rgba(0,0,0, 0);
+}

@@ -1,0 +1,82 @@
+QListWidget
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+}
+QListWidget::item:hover
+{
+padding: -1px;
+background-color: #eeeeee;
+}
+QListWidget::item
+{
+border-bottom:1px solid #eeeeee;
+}
+QListWidget::item:selected
+{
+padding: -1px;
+background-color: #cc3333;
+border:none;
+}
+QScrollBar:vertical
+{
+	border:none;
+    width:10px;
+    background:white;
+
+}
+QScrollBar::handle:vertical
+{
+    width:10px;
+    background-color:#b8b8b8;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:10px;  
+	background-color:#b8b8b8;
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: white;
+    border-radius:4px;
+}
+
+QPushButton#mPButtonConfirm
+{
+border:none;
+color:white;
+background-color:#CC3333;
+border-radius:5px;
+}
+
+QWidget#widget_2
+{
+background-color:#eeeeee;
+}
+
+QPushButton#pushButton
+{
+border-image: url(:/RedPacket/Resources/redPacket/close.png);
+}
+
+QLabel#label
+{
+color:white;
+}
+
+QWidget#widget
+{
+background-color:#cc3333;
+}

@@ -1,0 +1,228 @@
+QWidget
+{
+background-color: white;
+}
+
+QWidget#titleWidget
+{
+border: none;
+border-bottom: 1px solid #ebebec;
+}
+
+QMenu
+{
+background-color: #72a4d6;
+color: #042439;
+}
+
+QMenu::item:selected
+{
+color: white;
+}
+
+QFrame#line
+{
+color: #ebebec;
+}
+
+QPushButton#mPButtonSecretLetter
+{
+border-image: url(:/PerChat/Resources/person/mixin.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonNotice
+{
+border-image: url(:/PerChat/Resources/person/notice.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonNotice:hover
+{
+border: 1px;
+}
+QPushButton#mPButtonSecretLetter:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonSecretImage
+{
+border-image: url(:/PerChat/Resources/person/mitu.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonSecretImage:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonSecretFile
+{
+border-image: url(:/PerChat/Resources/person/mijian.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonSecretFile:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonPerFont
+{
+border-image: url(:/PerChat/Resources/person/font.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonPerFont:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonPerExpress
+{
+border-image: url(:/PerChat/Resources/person/biaoqing.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonPerExpress:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonPerShake
+{
+border-image: url(:/PerChat/Resources/person/doudong.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonPerShake:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonPerRedPacket
+{
+border-image: url(:/ewallet/Resources/ewallet/pwrWidget/redbag.png) 0 0 0 0 stretch stretch;
+border: 1px;
+}
+QPushButton#mPButtonPerRedPacket:hover
+{
+border: 2px;
+}
+
+QPushButton#mPButtonPerPicture
+{
+border-image: url(:/PerChat/Resources/person/picture.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonPerPicture:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonPerCutPicture
+{
+border-image: url(:/PerChat/Resources/person/jietu.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonPerCutPicture:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonPerFile
+{
+border-image: url(:/PerChat/Resources/person/wenjian.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonPerFile:hover
+{
+border: 1px;
+}
+
+QPushButton#mPButtonPerLog
+{
+margin-top: 1px;
+border: none;
+color: black;
+}
+QPushButton#mPButtonPerLog:hover{
+background-color: #fafafa;
+}
+
+QPushButton#mPButtonPerSend
+{
+background-color: #0066cb;
+margin-top: 1px;
+border: none;
+color: white;
+}
+QPushButton#mPButtonPerSend:hover{
+background-color: #0055ba;
+}
+
+QTextEdit#mTextEditPer
+{
+border: none;
+color: black;
+}
+
+QLabel
+{
+color: black;
+}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background: #073552;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#073552;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #0a182d;
+    border-radius:4px;
+}
+QPushButton#mPButtonTransfer
+{
+border-image: url(:/PerChat/Resources/person/Wallet.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonTransfer:hover
+{
+border: 1px;
+}
+QPushButton#mPButtonETH
+{
+border-image: url(:/PerChat/Resources/person/ETH.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonETH:hover
+{
+border: 1px;
+}
+QPushButton#mPButtonBTC
+{
+border-image: url(:/PerChat/Resources/person/BTC.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonBTC:hover
+{
+border: 1px;
+}
+QPushButton#mPButtonEOS
+{
+border-image: url(:/PerChat/Resources/person/EOS.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonEOS:hover
+{
+border: 1px;
+}
+QWidget#toolWidget
+{
+border-top: 1px solid #ebebec;
+}

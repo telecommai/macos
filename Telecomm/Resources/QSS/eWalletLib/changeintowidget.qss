@@ -1,0 +1,50 @@
+QWidget#ChangeIntoWidget
+{
+background-color: #fafaf9;
+}
+QWidget#mainWidget
+{
+border: 1px solid #6a82a5;
+background-color: #fafaf9;
+border-radius: 10px;
+}
+QLabel#codeLabel
+{
+background-color: rgb(255, 255, 255);
+padding: 10px;
+}
+QPushButton#setNumBtn
+{
+background-color: #fafaf9;
+color: #108ee9;
+border: none;
+}
+QLabel#label_1
+{
+background-color: #fafaf9;
+color: #000000;
+border: none;
+}
+QFrame#line
+{
+color: #ebebec;
+}
+QWidget#recordWidget
+{
+background-color: #fafaf9;
+}
+QLabel#changeLabel
+{
+border-image: url(:/ewallet/Resources/ewallet/change.png);
+background-color: #fafaf9;
+}
+QLabel#label_5
+{
+background-color: #fafaf9;
+color: #000000;
+}
+QPushButton#nextBtn
+{
+background-color: #fafaf9;
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}

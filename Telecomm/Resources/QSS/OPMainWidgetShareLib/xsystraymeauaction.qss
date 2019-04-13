@@ -1,0 +1,21 @@
+QLabel#label
+{
+border-image: url(:/mainWidget/Resources/mainWidget/space.png);
+}
+
+
+QPushButton#pushButton
+{
+border:none
+}
+
+QLabel#label_3
+{
+border-image: url(:/mainWidget/Resources/mainWidget/space.png);
+}
+
+QPushButton#pushButton_2
+{
+border:none
+}
+

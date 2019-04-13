@@ -1,0 +1,41 @@
+QLabel#label
+{
+background-image: url(:/Login/Resources/login/back.png);
+}
+
+QLabel#labelTitle
+{
+	border-image: url(:/mainWidget/Resources/mainWidget/title_logo.png);
+	color:#6182a5;
+}
+
+QPushButton#pushButtonSet
+{
+	border:none;
+        background-image:url(":/Login/Resources/login/title_set_hover.png");
+}
+QPushButton#pushButtonSet:hover
+{
+	border:none;
+	background-image:url(":/Login/Resources/login/title_set_hover.png");
+}
+QPushButton#pushButtonClose
+{
+	border:none;
+        background-image:url(":/Login/Resources/login/title_close_hover.png");
+}
+QPushButton#pushButtonClose:hover
+{
+	border:none;
+	background-image:url(":/Login/Resources/login/title_close_hover.png");
+}
+QPushButton#pushButtonSetUser
+{
+	border:none;
+        background-image:url(":/Login/Resources/login/title_user_hover.png");
+}
+QPushButton#pushButtonSetUser:hover
+{
+	border:none;
+	background-image:url(":/Login/Resources/login/title_user_hover.png");
+}

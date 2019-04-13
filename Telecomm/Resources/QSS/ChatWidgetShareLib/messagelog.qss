@@ -1,0 +1,173 @@
+QWidget#titleBar
+{
+background-color: #0066cb;
+border: none;
+}
+
+QLabel#iconLabel
+{
+border-image: url(':/Login/Resources/login/logo.png');
+}
+
+QLabel#titleLabel
+{
+color: rgb(255, 255, 255);
+}
+
+QLabel#dateLabel
+{
+color: black;
+}
+
+QPushButton#minBtn
+{
+border-image: url(':/PerChat/Resources/person/minsize03.png');
+}
+QPushButton#minBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/minsize35.png');
+}
+
+QPushButton#maxBtn
+{
+border-image: url(':/PerChat/Resources/person/maxsize04.png');
+}
+QPushButton#maxBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/maxsize36.png');
+}
+
+QPushButton#closeBtn
+{
+border-image: url(':/PerChat/Resources/person/close01.png');
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+
+QWidget#widget
+{
+background-color:#fafafa;
+border:none;
+border-bottom: 2px solid #ebebec;
+}
+
+QPushButton#contactsBtn
+{
+border: none;
+color: #999999;
+}
+
+QPushButton#contactsBtn:checked
+{
+color: black;
+border-bottom: 1px solid black;
+}
+
+QPushButton#groupBtn
+{
+border: none;
+color: #999999;
+}
+
+QPushButton#groupBtn:checked
+{
+color: black;
+border-bottom: 1px solid black;
+}
+
+QLineEdit#lineEdit
+{
+background-color: white;
+border: 1px solid #b8b8b8;
+border-right: none;
+color:#999999;
+}
+
+QPushButton#searchBtn
+{
+border: 1px solid #b8b8b8;
+color: black;
+}
+QPushButton#searchBtn:hover
+{
+color: #006db0;
+}
+
+QPushButton#clearBtn
+{
+border: 1px solid #b8b8b8;
+}
+QPushButton#clearBtn:hover
+{
+color: #006db0;
+}
+
+QWidget#toolWidget
+{
+background-color: #fafafa;
+border-top: 1px solid #ebebec;
+}
+
+QPushButton#dateBtn{
+border-image: url(:/messageLog/Resources/messageLog/dateSelector.png);
+}
+QPushButton#dateBtn:hover{
+border: 2px solid grey;
+}
+
+QPushButton#firstPageBtn
+{
+border: none;
+}
+QPushButton#firstPageBtn:hover
+{
+font-weight: bold;
+}
+
+QPushButton#lastPageBtn
+{
+border: none;
+}
+QPushButton#lastPageBtn:hover
+{
+font-weight: bold;
+}
+
+QPushButton#nextPageBtn
+{
+border: none;
+}
+QPushButton#nextPageBtn:hover
+{
+font-weight: bold;
+}
+
+QPushButton#endPageBtn
+{
+border: none;
+}
+QPushButton#endPageBtn:hover
+{
+font-weight: bold;
+}
+
+QListWidget
+{
+    background-color: #fafafa;
+	border:none;
+	color: #999999;
+}
+
+QListWidget::item
+{
+    color: #999999;
+}
+
+QListWidget::item:selected
+{
+    padding: -1px;
+	color: black;
+    background-color: #eaeaea;
+}

@@ -1,0 +1,174 @@
+QWidget#topWidget
+{
+border-image: url(:/profile/Resources/profile/groupHeader.png);
+}
+
+QLabel
+{
+color: #333333;
+}
+
+QLabel#numberLabel
+{
+color: grey;
+}
+
+QWidget#widget_2
+{
+background-color: #0a182d;
+}
+
+QPushButton#indexBtn
+{
+color: grey;
+border: none;
+margin-bottom: 2px;
+}
+QPushButton#indexBtn:checked
+{
+color: black;
+margin-bottom: 0px;
+border-bottom: 2px solid blue;
+}
+
+QPushButton#memberBtn
+{
+color: grey;
+border: none;
+margin-bottom: 2px;
+}
+QPushButton#memberBtn:checked
+{
+color: black;
+margin-bottom: 0px;
+border-bottom: 2px solid blue;
+}
+
+QPushButton#settingsBtn
+{
+color: grey;
+border: none;
+margin-bottom: 2px;
+}
+QPushButton#settingsBtn:checked
+{
+color: black;
+margin-bottom: 0px;
+border-bottom: 2px solid blue;
+}
+
+QStackedWidget#stackedWidget
+{
+background-color: #ffffff;
+}
+
+QLabel#label_3
+{
+color: #999999;
+}
+
+QLabel#label1
+{
+color: #999999;
+}
+
+QLabel#label_7
+{
+color: #999999;
+}
+
+QLabel#label_1
+{
+color: #999999;
+}
+
+QLabel#label_5
+{
+color: #999999;
+}
+
+QLabel#label_4
+{
+color: #999999;
+}
+
+QLabel#label_2
+{
+color: #999999;
+}
+
+QLabel#label_6
+{
+color: #999999;
+}
+
+QPushButton#freeBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/switch_off.png);
+}
+QPushButton#freeBtn:checked
+{
+border-image: url(:/ewallet/Resources/ewallet/switch_on.png);
+}
+
+QFrame#line_1
+{
+color: #eeeeee;
+}
+QFrame#line_2
+{
+color: #eeeeee;
+}
+
+QPushButton#QRcodeBtn
+{
+border-image: url(:/searchWidget/Resources/profile/QRcode.png);
+}
+
+QPushButton#addBtn
+{
+border-image: url(:/GroupChat/Resources/groupchat/groupAddBuddy.png);
+}
+
+QPushButton#shareBtn
+{
+	border:none;
+	color: #333333;
+}
+
+QLineEdit
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+color: #333333;
+}
+
+QLineEdit:focus
+{
+border: 1px solid #333333;
+}
+
+QPlainTextEdit
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+color: #333333;
+}
+
+QPlainTextEdit:focus
+{
+border: 1px solid #333333;
+}
+
+QPushButton#joinBtn
+{
+	background-color: #333333;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+
+QLabel#tipLabel
+{
+	color: #333333;
+}
