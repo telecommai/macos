@@ -9,7 +9,7 @@ inline QString getResourcePath()
 {
     QString strLocationName = QStandardPaths::writableLocation(QStandardPaths::HomeLocation);
     strLocationName = strLocationName.section("/", -1, -1);
-    QString strPath = "/Users/" + strLocationName +"/Library/Application\ Support/OpenPlanet/";
+    QString strPath = "/Users/" + strLocationName +"/Library/Application\ Support/Telecomm/";
     return strPath;
 }
 
