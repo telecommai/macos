@@ -1,0 +1,100 @@
+QListWidget
+{
+    border:none;
+    background-color: #fafafa;
+}
+
+QListWidget::item:hover
+{
+    border:none;
+    background-color: #fafafa;
+    padding: -1px;
+}
+
+QListWidget::item:selected
+{
+    border:none;
+    background-color: #fafafa;
+    padding: -1px;
+}
+
+QWidget#dataWidget
+{
+background-image: url(:/robotsWidget/Resources/mainWidget/theme_background.png);
+background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: none;
+	background-color: #f5f5f5;
+}
+
+QFrame#separateLine
+{
+background-color: #ebebec;
+}
+
+QPushButton#group
+{
+	background-image:url(':/Tab/Resources/tabContacts/tab_group_normal.png');
+	background-position: center; background-repeat:no-repeat;
+	border: none;background-color:#eceae8;
+	padding: -1px;
+}
+
+QPushButton#buddy
+{
+	background-image:url(':/Tab/Resources/tabContacts/tab_friend_normal.png');
+	background-position: center; background-repeat:no-repeat;
+	border: none;background-color:#eceae8;
+	padding: -1px;
+}
+
+QPushButton#buddy:checked
+{
+	background-image:url(':/Tab/Resources/tabContacts/tab_friend_normal.png');
+	background-position: center; background-repeat:no-repeat;
+	border: none;background-color:#c1d4e8;
+}
+
+QPushButton#group:checked
+{
+	background-image:url(':/Tab/Resources/tabContacts/tab_group_normal.png');
+	background-position: center; background-repeat:no-repeat;
+	border: none;background-color:#c1d4e8;
+}
+QPushButton#add
+{
+	background-image:url(':/Tab/Resources/tabContacts/icon_add.png');
+	background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: none;
+    background-color:#108ee9;
+	padding: -1px;
+}
+
+QWidget#searchWidget
+{
+background-color: #fafafa;
+}
+
+QWidget#searchLineWidget
+{
+border: 1px solid  #ebebec;
+border-radius: 11px;
+background-color: white;
+}
+
+QLineEdit#searchLineEdit
+{
+padding-left: 4px;
+padding-bottom: 1px;
+border: none;
+color: black;
+background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton#searchBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_search_close.png);
+}

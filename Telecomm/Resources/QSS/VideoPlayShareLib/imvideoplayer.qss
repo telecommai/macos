@@ -1,0 +1,11 @@
+background-color: rgba(0, 0, 0, 124);
+
+QPushButton#playButton
+{
+color: rgb(255, 255, 255);
+}
+
+QLabel#placeLabel
+{
+color: rgb(255, 255, 255);
+}

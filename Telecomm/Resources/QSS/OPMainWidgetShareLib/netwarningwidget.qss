@@ -1,0 +1,18 @@
+QWidget
+{
+	background-color:rgba(204,51,51,0.9);
+	border-radius:15px;
+}
+
+QLabel#iconLabel
+{
+border-image: url(:/mainWidget/Resources/mainWidget/netfailed.png);
+background-color:rgba(0,0,0,0);
+}
+
+QLabel#textLabel
+{
+color:white;
+background-color:rgba(0,0,0,0);
+}
+

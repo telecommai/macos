@@ -1,0 +1,116 @@
+QWidget
+{
+background-color: white;
+}
+
+QTextEdit#mTextEditGroup
+{
+background-color: white;
+border: none;
+color: black;
+}
+
+QWidget#mLabelBKTool
+{
+border-top: 1px solid #ebebec;
+}
+
+QPushButton#mPButtonGroupSend
+{
+background-color: #0066cb;
+margin-top: 1px;
+border: none;
+color: white;
+}
+QPushButton#mPButtonGroupSend:hover{
+background-color: #0055ba;
+}
+
+QWidget#mLabelGroupWidget
+{
+border: none;
+border-left: 1px solid #ebebec;
+}
+
+QListWidget#mGroupUserlistWidget
+{
+border: none;
+border-left: 1px solid #ebebec;
+color: #999999;
+}
+
+QPushButton#mPButtonGroupLog
+{
+margin-top: 1px;
+border: none;
+color: black;
+}
+QPushButton#mPButtonGroupLog:hover{
+background-color: #fafafa;
+}
+
+QPushButton#searchBtn
+{
+border-image: url(:/searchWidget/Resources/searchWidget/groupSearch.png);
+}
+QPushButton#searchBtn:checked
+{
+border-image: url(:/searchWidget/Resources/searchWidget/groupSearch_pressed.png);
+}
+
+QPushButton#addBtn
+{
+border-image: url(:/GroupChat/Resources/groupchat/groupAddBuddy.png);
+}
+
+QLabel#mLabelGroupNum
+{
+color: black;
+}
+
+QMenu{background-color: #fafafa;color: #000000;border:none;}
+QMenu::item{padding:4px;padding-left:15px;padding-right:15px;}
+QMenu::item:selected{background-color: #eaeaea;border:none;padding:4px;padding-left:15px;padding-right:15px;}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background: #073552;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#073552;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #0a182d;
+    border-radius:4px;
+}
+QPushButton#mPButtonNotice
+{
+border-image: url(:/PerChat/Resources/person/notice.png) 0 0 0 0 stretch stretch;
+}
+QPushButton#mPButtonNotice:hover
+{
+border: 1px;
+}

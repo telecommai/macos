@@ -1,0 +1,13 @@
+QPushButton#msgBtn
+{
+	background-color:#FF7F24;
+	border-radius:10px;
+	font: 75 10pt Microsoft YaHei;
+	font-size:10px;
+	font-color:rgb(0, 0, 0);
+}
+
+QLabel
+{
+	color:#000000;
+}

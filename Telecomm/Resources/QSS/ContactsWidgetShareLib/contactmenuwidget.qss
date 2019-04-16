@@ -1,0 +1,52 @@
+QWidget#ContactMenuWidget
+{
+	background-color:rgb(18,141,236);
+}
+QPushButton#AddBtn
+{
+	color:white;
+	font: 75 16pt Microsoft YaHei;
+	font-weight:Regular;
+	font-size:12px;
+	background-color:rgb(18,141,236);
+	border:none;
+}
+QPushButton#AddBtn:hover
+{
+	color:white;
+	font: 75 16pt Microsoft YaHei;
+	font-weight:Regular;
+	font-size:12px;
+	background-color:rgb(18,141,236);
+	border:none;
+}
+QPushButton#CreateBtn
+{
+	color:white;
+	font: 75 16pt Microsoft YaHei;
+	font-weight:Regular;
+	font-size:12px;
+	background-color:rgb(49,161,239);
+	border:none;
+}
+QPushButton#CreateBtn:hover
+{
+	color:white;
+	font: 75 16pt Microsoft YaHei;
+	font-weight:Regular;
+	font-size:12px;
+	background-color:rgb(49,161,239);
+	border:none;
+}
+QPushButton#picbtn1
+{
+image: url(:/addPerson/Resources/add/CreGrp.png);
+background-color:rgb(49,161,239);
+border:none;
+}
+QPushButton#picbtn2
+{
+background-color:rgb(18,141,236);
+image: url(:/addPerson/Resources/add/SerFri.png);
+border:none;
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config> 
+  <server> 
+    <!--websocket 服务  enable 是否启用-->  
+    <websocket Enable="true"> 
+      <port>20001</port> 
+    </websocket>  
+    <!--http 服务  enable 是否启用-->  
+    <http Enable="true"> 
+      <port>12306</port> 
+    </http> 
+  </server>  
+  <address> 
+    <MessageServerURL>https://im.telecomm.io</MessageServerURL>  
+    <!--消息服务地址-->  
+    <BSServerURL>https://tc.telecomm.io/tcserver</BSServerURL>  
+    <!--业务用户验证地址-->  
+    <PanServerURL>https://panserver.telecomm.io/panserver</PanServerURL>  
+    <!--云盘地址--> 
+  </address> 
+  <ShareMemory> 
+	<shareMemoryName>Telecomm</shareMemoryName>
+  </ShareMemory> 
+  <version> 
+    <number>1.0.1</number>  
+    <appid>macTelecomm</appid>  
+    <name>public</name> 
+	<update>1.16</update>
+	<appname>Telecomm</appname>
+  </version> 
+</config>

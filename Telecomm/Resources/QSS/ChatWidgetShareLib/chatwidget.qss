@@ -1,0 +1,72 @@
+QListWidget
+{
+    border:none;
+    background-color: #fafafa;
+}
+QListWidget::item:selected
+{
+    border:none;
+    background-color: #eaeaea;
+	padding: -1px;
+}
+
+QFrame#separateLine
+{
+background-color: #ebebec;
+}
+
+QStackedWidget#chatStackedWidget
+{
+background-image: url(:/robotsWidget/Resources/mainWidget/theme_background.png);
+background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border: none;
+	background-color: #ffffff;
+}
+
+QWidget#searchWidget
+{
+background-color: #000000;
+}
+
+QWidget#searchLineWidget
+{
+border: 1px solid #ebebec;
+border-radius: 11px;
+background-color: #ffffff;
+}
+
+QLineEdit#searchLineEdit
+{
+padding-left: 4px;
+padding-bottom: 1px;
+border: none;
+color: #000000;
+background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton#searchBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_search_close.png);
+}
+
+QSplitter::handle
+{
+background-color: #ebebec;
+}
+
+QWidget#searchWidget
+{
+background-color: #fafafa;
+}
+
+QWidget#deviceWidget
+{
+background-color: #fafafa;
+}
+
+QLabel#deviceLabel
+{
+	color:#999999;
+}

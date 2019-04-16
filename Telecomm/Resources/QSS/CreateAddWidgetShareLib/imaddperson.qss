@@ -1,0 +1,23 @@
+QWidget#backWidget
+{
+background-color: #fafafa
+}
+QPushButton
+{
+background-color: rgba(0,0,0,0);
+color: #999999;
+border-style:hidden;
+font: 75 16pt Microsoft YaHei;
+font-size:16px;
+font-weight:Bold;
+border:none;
+}
+QPushButton:checked
+{
+color: black;
+border-style:hidden;
+font: 75 16pt Microsoft YaHei;
+font-size:16px;
+font-weight:Bold;
+border-bottom: 2px solid black;
+}

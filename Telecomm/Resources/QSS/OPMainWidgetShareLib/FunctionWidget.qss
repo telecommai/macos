@@ -1,0 +1,80 @@
+QWidget
+{
+background-color:white;
+}
+
+QLabel#label
+{
+color:black;
+}
+
+QPushButton#mPButtonClose
+{
+border-image: url(:/RedPacket/Resources/redPacket/close.png);
+}
+
+QWidget#widget
+{
+border-image: url(:/functionDisplay/Resources/functionDisplay/startPage.png);
+}
+
+QWidget#label_5
+{
+background-color:grey;
+}
+
+QLabel#label_6
+{
+color:black;
+}
+
+QLabel#label_4
+{
+background-color:grey;
+}
+
+QPushButton#pushButton{
+	border:1px solid #183257;
+	border-radius:7px;
+	background-color:grey;
+}
+QPushButton#pushButton::checked{
+	background-color:#1890f0;
+}
+
+QPushButton#pushButton_2{
+	border:1px solid #183257;
+	border-radius:7px;
+	background-color:grey;
+}
+QPushButton::checked#pushButton_2{
+	background-color:#1890f0;
+}
+
+QPushButton#pushButton_3{
+	border:1px solid #183257;
+	border-radius:7px;
+	background-color:grey;
+}
+QPushButton::checked#pushButton_3{
+	background-color:#1890f0;
+}
+
+QPushButton#pushButton_4{
+	border:1px solid #183257;
+	border-radius:7px;
+	background-color:grey;
+}
+QPushButton::checked#pushButton_4{
+	background-color:#1890f0;
+}
+
+QPushButton#pushButton_5{
+	border:1px solid #183257;
+	border-radius:7px;
+	background-color:grey;
+}
+QPushButton::checked#pushButton_5{
+	background-color:#1890f0;
+}
+

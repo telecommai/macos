@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<config> 
+    <tcserver>https://tc.telecomm.io/tcserver</tcserver>
+    <inviteUrl>https://telecomm.io/</inviteUrl>
+</config>

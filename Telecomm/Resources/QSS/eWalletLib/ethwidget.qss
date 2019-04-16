@@ -1,0 +1,163 @@
+QListWidget
+{
+background-color: #ececec;
+border: none;
+}
+QListWidget::item:selected
+{
+    border:none;
+    background-color: #d2d2d2;
+	padding: -1px;
+}
+QWidget#firstWidget
+{
+background-color: #ececec;
+}
+QLabel#label_1
+{
+border-radius: 30px;
+border-image: url(:/ewallet/Resources/ewallet/eth.png);
+}
+QLabel#label_2
+{
+color: #6a82a6;
+}
+QPushButton#recoveryBtn
+{
+margin-left: 20px;
+margin-right: 20px;
+background-color: #f8931f;
+border-radius: 20px;
+color: #000000;
+}
+QWidget#mainWidget
+{
+background-color: #ececec;
+}
+QPushButton#addBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/add.png);
+}
+QLabel#label_4
+{
+color: #6a82a6;
+}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background:#d2d2d2;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#d2d2d2;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #ececec;
+    border-radius: 4px;
+}
+QWidget#topWidget
+{
+background-color: #ececec;
+border-radius: 10px;
+}
+QLabel#addressLabel
+{
+color: #6a82a6;
+}
+QPushButton#copyBtn
+{
+border-image: url(:/ewallet/Resources/ewallet/copy.png);
+}
+QLabel#tipLabel
+{
+color: #44608a;
+background-color: white;
+border-radius: 4px;
+padding: 0px 2px 0px 2px;
+margin-left: 6px;
+}
+QLabel#nameLabel
+{
+color: #128feb;
+}
+QLabel#iconLabel
+{
+border-radius: 5px;
+}
+QLabel#label_6
+{
+border-image: url(:/ewallet/Resources/ewallet/heartPurse.png);
+margin-bottom: 20px;
+}
+QLabel#label_3
+{
+border-image: url(:/ewallet/Resources/ewallet/eth_icon.png);
+}
+QLabel#numberLabel
+{
+color: #ffc97f;
+}
+QWidget#btnWidget
+{
+border-top: 1px solid #6e819f;
+}
+Line#line
+{
+color: #6e819f;
+}
+Line#line_2
+{
+color: #6e819f;
+}
+QPushButton#profileBtn
+{
+border: none;
+color: #128feb;
+padding: -1px;
+}
+QPushButton#profileBtn:checked
+{
+color: #000000;
+}
+QPushButton#turnInBtn
+{
+border: none;
+color: #128feb;
+padding: -1px;
+}
+QPushButton#turnInBtn:checked
+{
+color: #000000;
+}
+QPushButton#turnOutBtn
+{
+border: none;
+color: #128feb;
+padding: -1px;
+}
+QPushButton#turnOutBtn:checked
+{
+color: #000000;
+}

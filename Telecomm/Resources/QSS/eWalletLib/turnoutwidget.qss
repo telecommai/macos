@@ -1,0 +1,125 @@
+QWidget#TurnOutWidget
+{
+background-color: #ffffff;
+}
+QWidget#midWidget
+{
+border-radius: 4px;
+background-color: #ffffff;
+}
+QLineEdit
+{
+border: 1px solid #6a82a5;
+background-color: #ececec;
+color: #000000;
+padding-left: 4px;
+line-height: 28px;
+}
+QLineEdit:focus
+{
+border-color: #6a82a5;
+}
+QPushButton#mBtnClose
+{
+background-color: #ececec;
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#mBtnClose:hover
+{
+background-color: #ececec;
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#amountLabel
+{
+color: #face80;
+background-color: #ffffff;
+}
+QLabel#chainNameLabel
+{
+color: #128DEA;
+background-color: #ffffff;
+}
+QLabel#label_3
+{
+color: #128DEA;
+background-color: #ffffff;
+}
+QLabel#label_10
+{
+color: #128DEA;
+background-color: #ffffff;
+}
+QLabel#label_1
+{
+background-color: #ffffff;
+color: #128DEA;
+}
+QComboBox#recvBox
+{
+border: 1px solid #6a82a5;
+border-radius: 4px;
+background-color: #ececec;
+color: #000000;
+}
+QComboBox#recvBox QAbstractItemView::item
+{
+height:50px;border:0px;
+}
+QLabel#label_4
+{
+background-color: #ffffff;
+color: #128DEA;
+}
+QLabel#walletLabel
+{
+color: #128DEA;
+background-color: #ffffff;
+}
+QPushButton#transBtn
+{
+color: #042439;
+background-color: #ececec;
+border: none;
+border-radius: 5px;
+}
+QPushButton#transBtn:hover
+{
+color: #000000;
+}
+QLabel#addressLabel
+{
+background-color: #ffffff;
+color: #128DEA;
+}
+QFrame#line
+{
+color: #6a82a5;
+border-left: none;
+border-right: none;
+border-bottom: none;
+background-color: rgba(0,0,0, 0);
+}
+QWidget#minerWidget
+{
+background-color: rgba(0,0,0, 0);
+}
+QLabel#label_9
+{
+color: #128DEA;
+background-color: #ffffff;
+}
+QLabel#minerLabel
+{
+color: #128DEA;
+background-color: #ffffff;
+}
+QLabel#label_7
+{
+color: #128DEA;
+background-color: #ffffff;
+}
+QLabel#label_8
+{
+background-color: #ffffff;
+color: #128DEA;
+}

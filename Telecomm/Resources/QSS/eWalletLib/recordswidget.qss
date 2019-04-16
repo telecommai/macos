@@ -1,0 +1,113 @@
+QWidget#RecordsWidget
+{
+background-color: #f0f0f0;
+}
+QWidget#mainWidget
+{
+background-color: #f0f0f0;
+border-radius: 10px;
+}
+QListWidget
+{
+background-color: #f0f0f0;
+border: none;
+}
+QListWidget::item:selected
+{
+    border:none;
+    background-color: #ececec;
+	padding: -1px;
+}
+QPushButton#allTab
+{
+border: none;
+color: #6981a5;
+background-color: #f0f0f0;
+}
+QPushButton#allTab:checked
+{
+border-bottom: 2px solid #118eea;
+color: #118eea;
+}
+QPushButton#failTab
+{
+border: none;
+color: #6981a5;
+background-color: #f0f0f0;
+}
+QPushButton#failTab:checked
+{
+border-bottom: 2px solid #118eea;
+color: #118eea;
+}
+QPushButton#turnInTab
+{
+border: none;
+background-color: #f0f0f0;
+color: #6981a5;
+}
+QPushButton#turnInTab:checked
+{
+border-bottom: 2px solid #118eea;
+color: #118eea;
+}
+QPushButton#turnOutTab
+{
+border: none;
+color: #6981a5;
+background-color: #f0f0f0;
+}
+QPushButton#turnOutTab:checked
+{
+border-bottom: 2px solid #118eea;
+color: #118eea;
+}
+Line#line
+{
+color: #118eea;
+}
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background: #ececec;;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#ececec;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #f0f0f0;
+    border-radius:4px;
+}
+QWidget#top_widget
+{
+border-image: url(:/ewallet/Resources/ewallet/recordsBackground.png);
+border-top-left-radius:10px;
+border-top-right-radius:10px;
+}
+QLabel#tokenLabel
+{
+background-color: rgba(0,0,0, 0);
+color: white;
+}

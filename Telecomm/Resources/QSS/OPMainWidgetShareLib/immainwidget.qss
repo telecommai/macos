@@ -1,0 +1,193 @@
+QWidget#titleBar
+{
+background-color: #0066c6;
+border: none;
+border-bottom: 1px solid #0066c6;
+border-left:2px solid #0066c6;
+border-right:2px solid #0066c6;
+border-top:2px solid #0066c6;
+}
+
+QLabel#mainLabel
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_logo.png);
+}
+
+QWidget#searchLineWidget
+{
+border: 1px solid  rgb(56, 116, 188);
+border-radius: 11px;
+background-color: rgb(56, 116, 188);
+}
+
+QLineEdit#searchLineEdit
+{
+padding-left: 4px;
+padding-bottom: 1px;
+border: none;
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);
+}
+
+QPushButton#searchBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_search_open.png);
+}
+
+ToolButton#messageBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_message.png);
+}
+ToolButton#messageBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_message_checked.png);
+}
+
+ToolButton#contactsBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_contacts.png);
+}
+ToolButton#contactsBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_contacts_checked.png);
+}
+
+ToolButton#robotsBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_robots.png);
+}
+ToolButton#robotsBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_robots_checked.png);
+}
+
+ToolButton#walletBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_wallet.png);
+}
+ToolButton#walletBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_wallet_checked.png);
+}
+
+ToolButton#deviceBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_device.png);
+}
+ToolButton#deviceBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_device_checked.png);
+}
+
+ToolButton#liveBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_live.png);
+}
+ToolButton#liveBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_live_checked.png);
+}
+
+ToolButton#diskBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_disk.png);
+}
+ToolButton#diskBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_disk_checked.png);
+}
+
+ToolButton#mailBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_mail.png);
+}
+ToolButton#mailBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_mail_checked.png);
+}
+
+ToolButton#appBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_app.png);
+}
+ToolButton#appBtn:checked
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_app_checked.png);
+}
+
+QLabel#nickNameLabel
+{
+color: #ffffff;
+}
+
+QPushButton#skinBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_skin.png);
+}
+
+QPushButton#setBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_settings.png);
+}
+
+QFrame#line_2
+{
+color: #3a74bd;
+}
+
+QPushButton#minBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_min.png);
+}
+
+QPushButton#maxBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_max.png);
+}
+
+QPushButton#closeBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_close.png);
+}
+
+QWidget#page{
+background-image: url(:/robotsWidget/Resources/mainWidget/theme_background.png);
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+border:none;
+background-color: #042439;
+}
+
+QWidget#statusWidget
+{
+background-color: white;
+}
+
+QLabel#statusLabel
+{
+color: #108ee9;
+}
+
+QPushButton#pushButton
+{
+border-image: url(:/mainWidget/Resources/mainWidget/status_tool_ collapse.png);
+}
+
+QFrame#line
+{
+color: #073552;
+}
+
+QPushButton#settingsBtn
+{
+border-image: url(:/mainWidget/Resources/mainWidget/title_settings.png);
+}
+/*边框 白色主题暂不使用
+QStackedWidget#contentStacked
+{
+border-bottom:2px solid #efeeec;
+border-left:2px solid #efeeec;
+border-right:2px solid #efeeec;
+border-top:0px solid #efeeec;
+}*/

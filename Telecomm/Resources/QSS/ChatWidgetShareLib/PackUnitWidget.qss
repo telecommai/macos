@@ -1,0 +1,12 @@
+QLabel#label_3
+{
+color:#999999;
+}
+QLabel#label_6
+{
+color:#999999;
+}
+QLabel#label_2
+{
+color: #333333;
+}

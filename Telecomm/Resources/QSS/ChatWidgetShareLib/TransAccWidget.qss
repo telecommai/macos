@@ -1,0 +1,124 @@
+QWidget#widget
+{
+background-color: rgb(204, 51, 51);
+}
+QLabel#label
+{
+color:white;
+}
+QLabel#label_2
+{
+color:white;
+}
+QPushButton#mPButtonClose
+{
+border-image: url(:/RedPacket/Resources/redPacket/close.png);
+}
+QWidget#widget_2
+{
+	background-color: rgb(238, 238, 238);
+	border-bottom:1px solid #bbbbbb;
+}
+QLabel#balanceLabel
+{
+color:#cc3333;
+}
+QLabel#label_5
+{
+color:#cc3333;
+}
+QLabel#label_6
+{
+color:#cc3333;
+}
+QWidget#widget_3
+{
+background-color:white;
+}
+QSlider{
+border-color: #cc3333;
+}
+QSlider::groove:horizontal {                                
+     border: 1px solid #cc3333;                             
+     height: 1px;                                           
+    margin: 0px 0;                                         
+     left: 5px; right: 5px; 
+ }
+QSlider::handle:horizontal {                               
+     border: 0px ;                           
+	border-image: url(:/RedPacket/Resources/redPacket/redPoint.png);
+     width: 15px;                                          
+     margin: -7px -7px -7px -7px;                  
+} 
+QSlider::add-page:horizontal{
+background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #bcbcbc, stop:0.25 #CC3333, stop:0.5 #CC3333, stop:1 #CC3333); 
+
+}
+QSlider::sub-page:horizontal{                               
+ background: qlineargradient(spread:pad, x1:0, y1:1, x2:0, y2:0, stop:0 #439cf3, stop:0.25 #CC3333, stop:0.5 #CC3333, stop:1 #CC3333);                     
+}
+QWidget#widget_5
+{
+	border-bottom:1px solid #eeeeee;
+}
+QLabel#label_3
+{
+color:#999999;
+}
+QWidget#widget_6
+{
+	border-bottom:1px solid #eeeeee;
+}
+QLabel#label_8
+{
+color:#999999;
+}
+QLineEdit#lineEdit
+{
+border:none;
+background-color:white;
+}
+QWidget#widget_7
+{
+	border-bottom:1px solid #eeeeee;
+}
+QComboBox 
+{
+border: 1px solid #6a82a6;;
+background-color: rgba(0,0,0, 0);
+color: #6a82a5;
+}
+QComboBox::drop-down
+{
+border-image: url(:/TreeIcon/Resources/TreeIcon/tree_open.png);
+border: none;
+}
+QComboBox QAbstractItemView::item
+{
+background-color: white;
+color: black;
+}
+QComboBox QAbstractItemView::item:selected
+{
+background-color: #15447c;
+color: white;
+}
+QLabel#label_12
+{
+color:#999999;
+}
+QWidget#widget_8
+{
+	border-bottom:1px solid #eeeeee;
+}
+QLabel#label_13
+{
+color:#999999;
+}
+QPushButton#mPButtonConfirm
+{
+border:none;
+background-color:#cc3333;
+color:white;
+border-radius:5px;
+}

@@ -1,0 +1,8 @@
+QListWidget
+{
+background-color:#15447c;border:none;outline:0px;
+}
+QListWidget::item:hover
+{
+background-color:#183457;
+}

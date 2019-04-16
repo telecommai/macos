@@ -1,0 +1,345 @@
+﻿<!DOCTYPE html>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<style type="text/css">
+		    /*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+    		::-webkit-scrollbar
+    		{
+        		width: 12px;
+    		}
+    		/*定义滚动条轨道 内阴影+圆角*/
+    		::-webkit-scrollbar-track
+    		{
+        		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+        		border-radius: 10px;
+        		background-color: #0a182d;
+    		}
+    		/*定义滑块 内阴影+圆角*/
+    		::-webkit-scrollbar-thumb
+    		{
+        		border-radius: 10px;
+        		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+        		background-color: #073552;
+    		}
+			
+			pre {
+				white-space:pre-wrap;
+				word-wrap:break-word;
+			}
+			
+			#content{
+				font-family: "microsoft yahei";
+				margin: 0;
+			}
+			.title{
+				position: fixed;
+				margin: 0;
+				top: 0;
+				width: 100%;
+				background-color: #042439;
+				padding-top: 6px;
+				padding-left: 8px;
+				font-size: 12px;
+				height: 24px;
+				z-index: 999;
+				color: white;
+			}
+			hr{
+				border: none;
+				border-top: 1px solid #d5e3eb;
+				margin-left: 10px;
+				margin-right: 10px;
+			}
+			.dateTime{
+				    position: absolute;
+				    font-size: 12px;
+				    margin: 0;
+				    top: -9px;
+				    width: 20%;
+				    left: 40%;
+				    text-align: center;
+				    background-color: #042439;
+					color: white;
+			}
+			.buddy{
+				font-size: 12px;
+				color: RoyalBlue;
+				margin-top: 5px;
+				margin-left: 8px;
+				margin-bottom: 3px;
+			}
+			.me{
+				font-size: 12px;
+				color: green;
+				margin-top: 5px;
+				margin-left: 8px;
+				margin-bottom: 3px;
+			}
+			.text{
+				margin: 0;
+				margin-left: 16px;
+				font-size: 14px;
+				color: white;
+			}
+			.image{
+				margin-left: 16px;
+				max-width: 300px;
+				max-height: 200px;
+			}
+			video{
+				margin-left: 16px;
+				width: 320px;
+				height: 180px;
+				background-color: #bbcbd3;
+				border-radius: 10px;
+			}
+			.readyPlay{
+				position:absolute;
+				width:100px;
+				height:100px;
+				top:40px;
+				left:128px;
+			}
+			.notice, .location{
+            width:100%;
+            height:auto;
+            max-width: 100%;
+            max-height:100%;
+        }
+		</style>
+	</head>
+	<script type="text/javascript">
+	    window.onload = function()
+		{
+			//recvNotice("164953236","09:49:26","https://panserver.solarsource.cn/panserver/files/04100383-55c6-4167-8103-df97706c23e7/download","图片","www.sina.com","网页");
+			//recvLocation("164953236","09:46:43","0002FF3A00033F530000016564765D2F00000AE700","https://panserver.solarsource.cn/panserver/files/88214fcf-8288-4c6f-9887-477d0856b898/download","山东大学(软件园校区)","山东大学(软件园校区)");
+			//sendText("Kimb1e","09:44:16","<img src='./expression/56.gif'/><img src='./expression/66.gif'/><img src='./expression/68.gif'/><img src='./expression/71.gif'/>")
+		}
+		//清空界面的方法。
+		function clear() 
+		{
+            document.body.innerHTML = '';
+        }
+		//写入标题，例如“与张三的消息记录”
+		function setPerTitle(strTitle)
+		{
+			var title = "<p class='title'>与"+ strTitle + "的消息记录</p><p style='height:20px;margin:0'></p>";
+			var obj = document.getElementById("content");
+			obj.insertAdjacentHTML("beforeEnd", title);
+		}
+		//写入标题，例如“在工作群的消息记录”
+		function setGroupTitle(strTitle)
+		{
+			var title = "<p class='title'>在"+ strTitle + "的消息记录</p><p style='height:20px;margin:0'></p>";
+			var obj = document.getElementById("content");
+			obj.insertAdjacentHTML("beforeEnd", title);
+		}
+		//当没有消息记录时执行此方法。
+		function space()
+		{
+			var obj = document.getElementById("content");
+            obj.insertAdjacentHTML("beforeEnd", "<p style='position: absolute;width: 100%;top: 40%;text-align: center; color: white;'>暂无消息</p>");
+		}
+		//添加时间标签。
+		function addDate(strDate)
+		{
+			var dateValue = "<div style='position: relative; margin-top: 20px; margin-bottom: 20px'><p class='dateTime'>" + strDate + "</p><hr /></div>";
+			var obj = document.getElementById("content");
+            obj.insertAdjacentHTML("beforeEnd", dateValue);
+		}
+		//滚动到指定时间标签。
+		function scrollDate(strDate)
+		{
+			var dateList = document.getElementsByClassName("dateTime");
+			
+			for (var i = 0; i < dateList.length; i++)
+			{
+				var dateLine = dateList[i];
+	
+				if (dateLine.innerText == strDate)
+				{
+					bar = dateLine.offsetParent.offsetTop - 40;
+					window.setTimeout("scroll()", 0);
+				}
+				    
+			}
+		}
+		var bar;
+		function scroll()
+		{
+			window.scrollTo(0, bar);
+		}
+		//接收文本信息。
+		function recvText(name, time, strText)
+		{
+			strText = decodeURIComponent(strText);
+		
+			var obj = document.getElementById("content");
+			var title = "<p class='buddy'>" + name + "&nbsp;" + time + "</p>";
+			var txt = "<pre class='text'>" + strText + "</pre>";
+            obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", txt);
+		}
+		//发送文本消息。
+		function sendText(name, time, strText)
+		{
+			strText = decodeURIComponent(strText);
+		
+			var obj = document.getElementById("content");
+			var title = "<p class='me'>" + name + "&nbsp;" + time + "</p>";
+			var txt = "<pre class='text'>" + strText + "</pre>";
+            obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", txt);
+		}
+		//接收图片。
+		function recvImg(name, time, strImg)
+		{
+			var obj = document.getElementById("content");
+			var title = "<p class='buddy'>" + name + "&nbsp;" + time + "</p>";
+			var img = "<div ondblclick='ChangeSize(this)'><img src='file:///" + strImg + "' class='image' /></div>";
+            obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", img);
+		}
+		//发送图片。
+		function sendImg(name, time, strImg)
+		{
+			var obj = document.getElementById("content");
+			var title = "<p class='me'>" + name + "&nbsp;" + time + "</p>";
+			var img = "<div ondblclick='ChangeSize(this)'><img src='file:///" + strImg + "' class='image' /></div>";
+ 
+            obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", img);
+		}
+		function ChangeSize(thisa) {
+            var Ptr = thisa.getElementsByTagName("img");
+            var src = Ptr[0].src;
+
+            slotZoomImg(src); 
+        }
+		function recvVideo(name, time, strPath)
+		{
+			var obj = document.getElementById("content");
+			var title = "<p class='buddy'>" + name + "&nbsp;" + time + "</p>";
+			var video = "<div style='position:relative' ondblclick=\"videoPlay(this)\"><img src='readyPlay.png' class='readyPlay'><video src='file:///" + strPath + "'></video></div>";
+            obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", video);
+		}
+		function sendVideo(name, time, strPath)
+		{
+			var obj = document.getElementById("content");
+			var title = "<p class='me'>" + name + "&nbsp;" + time + "</p>";
+			var video = "<div style='position:relative' ondblclick=\"videoPlay(this)\"><img src='readyPlay.png' class='readyPlay'><video src='file:///" + strPath + "'></video></div>";
+            obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", video);
+		}
+		function videoPlay(thisa)
+        {
+            var Ptr = thisa.getElementsByTagName("video");
+            var src = Ptr[0].src;
+
+            slotVideoPlay(src);
+        }
+        function recvFile(name, time, strImg, strPath, strSize)
+        {
+        	var strDir = strPath.substr(0,strPath.lastIndexOf('/')+1);
+        	var strName = strPath.substr(strPath.lastIndexOf('/')+1);
+        	
+        	var title = "<p class='buddy'>" + name + "&nbsp;" + time + "</p>";
+        	var strFile = "<div style='margin-left: 16px; border: 1px solid #cfdbe2; border-radius: 5px; width: 300px;height: 100px;'>"
+        	strFile += "<img src='" + strImg + "' style='width: 48px;height: 48px; margin-top: 8px;margin-left: 8px; border-radius: 3px; float: left;'/>";
+        	strFile += "<div style='margin-top: 10px; margin-left: 60px; font-size: 12px;' >";
+        	strFile += "<div style='display: inline; font-size: 14px;'>" + strName + "&nbsp;&nbsp;</div><div style='display: inline; color: #767676;'>(" + strSize + ")</div>";
+        	strFile += "<p title='" + strPath + "' style='margin: 0; margin-top: 6px; width: 220px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #767676;'>成功存至" + strPath + "</p>";
+        	strFile += "<div style='position:absolute; margin-top: 13px; left: 17px; border-top: 1px solid #cfdbe2; width: 300px; color: #009ada;'>";
+        	strFile += "<a style='float: right; margin-top: 8px; margin-right: 8px; cursor: pointer;' onclick='openDir(this)' id='" + strDir + "'>打开文件夹</a>";
+        	strFile += "<a style='float: right; margin-top: 8px; margin-right: 10px; cursor: pointer;' onclick='openFile(this)' id='" + strPath + "'>打开</a>";
+        	strFile += "</div></div></div>";
+        	
+        	var obj = document.getElementById("content");
+        	obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", strFile);
+        }
+        function sendFile(name, time, strImg, strPath, strSize)
+        {
+        	var strDir = strPath.substr(0,strPath.lastIndexOf('/')+1);
+        	var strName = strPath.substr(strPath.lastIndexOf('/')+1);
+        	
+        	var title = "<p class='me'>" + name + "&nbsp;" + time + "</p>";
+        	var strFile = "<div style='margin-left: 16px; border: 1px solid #cfdbe2; border-radius: 5px; width: 300px;height: 100px;'>"
+        	strFile += "<img src='" + strImg + "' style='width: 48px;height: 48px; margin-top: 8px;margin-left: 8px; border-radius: 3px; float: left;'/>";
+        	strFile += "<div style='margin-top: 10px; margin-left: 60px; font-size: 12px;' >";
+        	strFile += "<div style='display: inline; font-size: 14px;'>" + strName + "&nbsp;&nbsp;</div><div style='display: inline; color: #767676;'>(" + strSize + ")</div>";
+        	strFile += "<p title='" + strPath + "' style='margin: 0; margin-top: 6px; width: 220px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; color: #767676;'>成功发送文件</p>";
+        	strFile += "<div style='position:absolute; margin-top: 13px; left: 17px; border-top: 1px solid #cfdbe2; width: 300px; color: #009ada;'>";
+        	strFile += "<a style='float: right; margin-top: 8px; margin-right: 8px; cursor: pointer;' onclick='openDir(this)' id='" + strDir + "'>打开文件夹</a>";
+        	strFile += "<a style='float: right; margin-top: 8px; margin-right: 10px; cursor: pointer;' onclick='openFile(this)' id='" + strPath + "'>打开</a>";
+        	strFile += "</div></div></div>";
+        	
+        	var obj = document.getElementById("content");
+        	obj.insertAdjacentHTML("beforeEnd", title);
+            obj.insertAdjacentHTML("beforeEnd", strFile);
+        }
+        function openFile(thisa)
+        {
+        	slotOpenFile(thisa.getAttribute("id"));
+        }
+        function openDir(thisa)
+        {
+        	slotOpenDir(thisa.getAttribute("id"));
+        }
+		function recvNotice(name, date, imageUrl, imageTitle, webUrl, webTitle)
+		{
+			var obj = document.getElementById("content");
+			var title = "<p class='buddy'>" + name + "&nbsp;" + date + "</p>";
+            obj.insertAdjacentHTML("beforeEnd", title);
+			var h = "<div onclick=\"OpenLink(this)\" style=\"width: 280px;height: 180px; margin-top: 5px; display: inline-block; cursor:pointer;\">\
+              <div style=\"width: 280px;height: 120px;position: relative;\">\
+                <div class='temp' style='width:100%; height:100%; border-top-left-radius: 10px; border-top-right-radius: 10px;background-color:rgb(24,50,87); color: white;font-size:14px;text-align: center;line-height:120px;'>正在加载……</div>\
+                <img class=\"notice\" onload=\"imgLoadFinished(this)\" id=" + webUrl + " style=\"display:none; border-top-left-radius: 10px; border-top-right-radius: 10px; background-color: rgb(10,24,45);\"  src='" + imageUrl + "'/>\
+                <div style=\"width: 280px; height: 30px; position: absolute; bottom: 0; line-height: 30px; background-color: rgba(0,0,0, 0.5); color: white;font-size:14px;\">&nbsp;" + imageTitle + "</div>\
+              </div>\
+              <div style=\"width: 270px; padding:5px; background-color: white;border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; word-wrap: break-word;font-size:14px;\">" + webTitle + "</div>\
+            </div>";
+			obj.insertAdjacentHTML("beforeEnd", h);
+        }
+        function recvLocation(name, date, megid, url, imagetitle, webtitle) 
+		{
+			var obj = document.getElementById("content");
+			var title = "<p class='buddy'>" + name + "&nbsp;" + date + "</p>";
+            obj.insertAdjacentHTML("beforeEnd", title);
+			
+            var h = "<div id='" + megid + "' onclick=\"slotLocation(this.id)\" style=\"width: 260px;height: 200px; margin-top: 5px; position:relative; cursor:pointer;\">\
+              <div style=\"width: 260px;height: 140px;position: relative;\">\
+                <div class='temp' style='width:100%; height:100%; border-top-left-radius: 10px; border-top-right-radius: 10px;background-color:rgb(24,50,87); color: white;font-size:14px;text-align: center;line-height:120px;'>正在加载……</div>\
+                <img class=\"location\" onload=\"imgLoadFinished(this)\" style=\"display:none; border-top-left-radius: 10px; border-top-right-radius: 10px; background-color: rgb(10,24,45);\"  src='" + url + "'/>\
+                <div style=\"width: 260px; height: 30px; position: absolute; bottom: 0; line-height: 30px; background-color: white; color: black;font-size:14px;\">&nbsp;" + imagetitle + "</div>\
+              </div>\
+              <div style=\"width: 250px; padding:5px; background-color: white; color: grey; border-bottom-left-radius: 10px; border-bottom-right-radius: 10px; word-wrap: break-word;font-size:14px;\">" + webtitle + "</div>\
+            </div>";
+            obj.insertAdjacentHTML("beforeEnd", h);
+        }
+		 function imgLoadFinished(thisa)
+         {
+         	var temp = thisa.parentNode.parentNode.getElementsByClassName('temp')[0];
+        	temp.style.display = 'none';
+         	
+         	thisa.style.display = 'block';
+         }
+		function OpenLink(thisa) {
+            var Ptr = thisa.getElementsByClassName("notice");
+            var id = Ptr[0].id;
+
+			slotOpenUrl(id);
+        }
+		function scrollToTop()
+		{
+			window.scrollTo(0, 0);
+		} 
+	</script>
+	<body id="content" style="background:#042439">	
+		
+	</body>
+</html>

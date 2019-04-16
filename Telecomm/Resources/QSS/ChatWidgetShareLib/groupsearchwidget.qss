@@ -1,0 +1,35 @@
+background-color: rgb(255, 255, 255);
+
+QLineEdit#lineEdit
+{
+border: 2px solid #4e67a5;
+}
+
+QFrame#line_4
+{
+border: none;
+background: #4e67a5;
+}
+
+QFrame#line
+{
+border: none;
+background: #4e67a5;
+}
+
+QListWidget#listWidget
+{
+border: none;
+}
+
+QFrame#line_2
+{
+border: none;
+background: #4e67a5;
+}
+
+QFrame#line_3
+{
+border: none;
+background: #4e67a5;
+}

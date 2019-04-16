@@ -1,0 +1,133 @@
+QWidget#HostingAccoutWidget
+{
+background-color: #ececec;
+}
+QWidget#page1
+{
+background-color: #ececec;
+border-radius: 10px;
+}
+QListWidget
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+}
+QListWidget::item:selected
+{
+padding: -1px;
+background-color: #ececec;
+}
+
+QScrollBar:vertical
+{
+	border:none;
+    width:10px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:10px;
+    background-color: #f6f6f6;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:10px;  
+	background-color: #d2d2d2;
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #f6f6f6;
+    border-radius:4px;
+}
+QLabel#label_1
+{
+color: #000000;
+background-color: rgba(0,0,0, 0);
+}
+QWidget#page2
+{
+background-color: #f6f6f6;
+border-radius: 10px;
+}
+QPushButton#backBtn
+{
+border: none;
+color: #000000;
+background-color: rgba(0,0,0, 0);
+}
+QLabel#titleLabel
+{
+color: #000000;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#allRecordsBtn
+{
+border: none;
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#allRecordsBtn:checked
+{
+color: #128feb;
+border-bottom: 1px solid #128feb;
+}
+QPushButton#chargeRecordsBtn
+{
+border: none;
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#chargeRecordsBtn:checked
+{
+color: #128feb;
+border-bottom: 1px solid #128feb;
+}
+QPushButton#coinRecordBtn
+{
+border: none;
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#coinRecordBtn:checked
+{
+color: #128feb;
+border-bottom: 1px solid #128feb;
+}
+QPushButton#otherRecordBtn
+{
+border: none;
+color: #6A82A6;
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#otherRecordBtn:checked
+{
+color: #128feb;
+border-bottom: 1px solid #128feb;
+}
+QPushButton#chargeBtn
+{
+border: none;
+border-radius: 4px;
+color: white;
+background-color: #128feb;
+}
+QPushButton#coinBtn
+{
+border: none;
+border-radius: 4px;
+color: white;
+background-color: #128feb;
+}

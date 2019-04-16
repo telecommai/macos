@@ -1,0 +1,70 @@
+QWidget#TransferWidget
+{
+background-color: #ffffff;
+}
+QWidget#midWidget
+{
+border:none;
+border-radius: 4px;
+background-color: #ffffff;
+}
+QLabel
+{
+background-color: #ffffff;
+}
+QLineEdit
+{
+border: 1px solid #6a82a5;
+background-color: #ececec;
+color: #000000;
+padding-left: 4px;
+line-height: 28px;
+}
+QLineEdit:focus
+{
+border-color: #6a82a5;
+}
+QPushButton#mBtnClose
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#mBtnClose:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#label_1
+{
+color: #6a82a5;
+}
+QLabel#label_2
+{
+color: #6a82a5;
+}
+QLabel#label_3
+{
+color: #6a82a5;
+}
+QLabel#label_4
+{
+color: #6a82a5;
+}
+QLabel#turnOutLabel
+{
+color: #6a82a5;
+}
+QLabel#energyLabel
+{
+color: #face80;
+}
+QLabel#minerLabel
+{
+color: #6a82a5;
+}
+QLabel#label_10
+{
+color: #128DEA;
+}
+QLabel#label_8
+{
+color: #128DEA;
+}

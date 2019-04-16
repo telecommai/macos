@@ -1,0 +1,14 @@
+QLabel#label1
+{
+	border:none;
+	background-color:white;
+}
+QLabel#labelTip
+{
+	border:none;
+	color:red;
+}
+QLabel#labelTip
+{
+	color:#6182a5;
+}

@@ -1,0 +1,140 @@
+QWidget#mainWidget
+{
+background-color: #ffffff;
+border-bottom:1px solid #bbbbbb;
+}
+
+QWidget#coinNumWidget
+{
+background-color: #ffffff;
+border-bottom:1px solid #eeeeee;
+}
+
+QLabel#label_11
+{
+color: #999999;
+}
+
+QLabel#label_8
+{
+color: #000000;
+}
+
+QLineEdit#numberEdit
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+color: #333333;
+}
+
+QWidget#remarkWidget
+{
+background-color: #ffffff;
+}
+
+QLabel#label_9
+{
+color: #000000;
+}
+
+QLineEdit#remarkEdit
+{
+border: none;
+background-color: rgba(0,0,0, 0);
+color: #333333;
+}
+
+QLabel#coinLabel
+{
+color: #333333;
+}
+
+QLabel#label_7
+{
+color: #00000;
+}
+
+QPushButton#pushButton_2
+{
+border-image: url(:/RedPacket/Resources/redPacket/rightArrow.PNG);
+}
+
+QWidget#widget_2
+{
+border-bottom:1px solid #eeeeee;
+}
+
+QLabel#balanceLabel
+{
+color: #000000;
+}
+
+QLabel#label_3
+{
+color: #666666;
+}
+
+QPushButton#turnInBtn
+{
+color:#cc3333;
+border:none;
+}
+
+QWidget#topWidget
+{
+background-color: #cc3333;
+}
+
+QPushButton#closeBtn
+{
+border-image: url(:/RedPacket/Resources/redPacket/close.png);
+}
+
+QLabel#label_2
+{
+color: rgb(255, 255, 255);
+}
+
+QWidget#widget
+{
+background-color: #eeeeee;
+}
+
+QLabel#giveLabel
+{
+color: #cc3333;
+}
+
+QPushButton#recordBtn{
+	border:none;
+	color:#cc3333;
+}
+
+QPushButton#recordBtn::hover
+{
+	color:#cc3333;
+}
+
+QWidget#widget_3
+{
+background-color: #eeeeee;
+}
+
+QPushButton#giveBtn
+{
+border: none;
+border-radius: 4px;
+background-color: #cc3333;
+color: white;
+}
+
+QWidget#widget_4
+{
+background-color: #eeeeee;
+}
+
+QLabel#label
+{
+color:#cc6600;
+}
+

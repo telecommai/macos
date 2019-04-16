@@ -1,0 +1,38 @@
+QLabel#label
+{
+background-color:#FF4040;
+border-radius:4px;
+}
+
+QPushButton#mPButtonClose
+{
+border-image: url(:/RedPacket/Resources/redPacket/close.png);
+}
+
+QLabel#mLabelAvatar
+{
+border-radius:5px;
+background-color:red;
+}
+
+QLabel#mLabelNickname
+{
+color:#FFDFB2;
+}
+
+QLabel#mLabelPack
+{
+color:#FFDFB2;
+}
+QLabel#label_5
+{
+color:#FFDFB2;
+}
+QPushButton#mPButtonOpen
+{
+border-image: url(:/RedPacket/Resources/redPacket/wecahtview_red_package_open.png);
+}
+QLabel#mLabelicon
+{
+border-image: url(:/RedPacket/Resources/redPacket/wchatview_red_package_bottom.png);
+}

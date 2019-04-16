@@ -1,0 +1,31 @@
+QWidget#QGroupQR
+{
+	background-color: #fafafa;
+    border: 1px solid #0066cb;
+}
+
+QLabel#IDLabel
+{
+	font-family:"Microsoft YaHei"; 
+	font-size:12px;
+	font-weight:100 ;
+}
+
+QLabel#NameLabel
+{
+	font-family:"Microsoft YaHei"; 
+	font-size:15px;
+	font-weight:100 ;
+}
+
+QLabel#NoteLabel
+{
+    font-family:"Microsoft YaHei"; 
+	font-size:15px;
+	font-weight:100 ;
+}
+
+QLabel#QRLabel
+{
+	background-color:white;
+}

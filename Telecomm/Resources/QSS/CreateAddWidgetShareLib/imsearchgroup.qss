@@ -1,0 +1,65 @@
+QLabel#mLabelSearchGroup
+{
+background-color:#fafafa;
+}
+QPushButton#mPButtonSearchGroup
+{
+background-color: rgb(56,116,188);
+border-radius:4px;
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+QLineEdit#mlineEditSearchGroup
+{
+background-color: rgba(0,0,0,0);
+border:1px solid #0066cb;
+border-radius:4px;
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:#999999;
+padding-left:10px;
+}
+QWidget#tableWidget
+{
+background-color:#fafafa;
+border:0px;
+color:#999999;
+selection-background-color:rgb(4,36,57);
+}
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background: #073552;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#073552;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #0a182d;
+    border-radius:4px;
+}

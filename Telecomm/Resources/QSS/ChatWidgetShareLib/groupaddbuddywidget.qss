@@ -1,0 +1,116 @@
+QWidget#GroupAddBuddyWidget
+{
+background-color: #fafafa;
+}
+QScrollBar:vertical
+{
+	border:none;
+    width:12px;
+    background:rgba(0,0,0,0%);
+}
+QScrollBar::handle:vertical
+{
+    width:12px;
+    background:#073552;
+    border-radius:4px;  
+    min-height:20;
+}
+QScrollBar::handle:vertical:hover
+{
+    width:12px;
+    background:#073552;   
+    border-radius:4px;
+    min-height:20;
+}
+QScrollBar::add-line:vertical   
+{
+	border:none;
+}
+QScrollBar::sub-line:vertical  
+{
+	border:none;
+}
+QScrollBar::add-page:vertical,QScrollBar::sub-page:vertical   
+{
+    background: #0a182d;
+    border-radius:4px;
+}
+
+QListWidget#contactsList
+{
+border: none;
+background-color: #fafafa;
+}
+
+QLineEdit#lineEdit
+{
+border: 1px solid #0066cb;
+border-radius: 4px;
+color: black;
+background-color: #ffffff;
+}
+
+QListWidget#searchList
+{
+border: none;
+background-color: #fafafa;
+}
+
+QLabel#countLabel
+{
+color: black;
+}
+
+QListWidget#memberList
+{
+border: none;
+background-color: #fafafa;
+}
+
+QWidget#bottomWidget
+{
+background-color: white;
+}
+
+QPushButton#cancelBtn
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 5px;
+}
+
+QPushButton#enterBtn
+{
+color: white;
+border: none;
+background-color: #108ee9;
+border-radius: 5px;
+}
+
+QWidget#titleBar
+{
+background-color: #0066cb;
+border: none;
+}
+
+QPushButton#closeBtn
+{
+border-image: url(':/PerChat/Resources/person/close01.png');
+background-color: rgba(0,0,0, 0);
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+
+QLabel#iconLabel
+{
+border-image: url(':/Login/Resources/login/logo.png');
+}
+
+QLabel#titleLabel
+{
+color: white;
+background-color: rgba(0,0,0, 0);
+}

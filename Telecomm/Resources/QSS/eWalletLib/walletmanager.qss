@@ -1,0 +1,86 @@
+QWidget#backWidget
+{
+background-color:#fafafa;
+border: 1px solid #6a82a5;
+border-radius: 10px;
+}
+QComboBox#accountBox
+{
+border: 1px solid #6a82a6;;
+background-color: rgba(0,0,0, 0);
+color: #000000;
+}
+QComboBox#accountBox::drop-down
+{
+border-image: url(:/TreeIcon/Resources/TreeIcon/tree_open.png);
+border: none;
+}
+QLabel#label_7
+{
+border-image: url(:/ewallet/Resources/ewallet/changeHeader.png);
+}
+QLabel#label_8
+{
+color: #6a82a6;
+}
+QLabel#label
+{
+border-image: url(:/ewallet/Resources/ewallet/more.png);
+}
+QLabel#label_5
+{
+color: #6a82a6;
+}
+QLabel#label_6
+{
+border-image: url(:/ewallet/Resources/ewallet/privateKey.png);
+}
+QPushButton#closeBtn
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QPushButton#deleteBtn
+{
+border: none;
+color: #000000;
+background-color: #ececec;
+border-radius: 20px;
+}
+QLabel#titleLabel
+{
+color: #6a82a6;
+}
+QLabel#addressLabel
+{
+color: #6a82a6;
+}
+QLabel#nameLabel
+{
+color:#118eea;
+}
+QLabel#label_1
+{
+border-image: url(:/ewallet/Resources/ewallet/changeHeader.png);
+}
+QLabel#label_3
+{
+color: #6a82a6;
+}
+QLabel#label_2
+{
+border-image: url(:/ewallet/Resources/ewallet/changeName.png);
+}
+QLabel#label_4
+{
+color: #6a82a6;
+}
+QLineEdit#nameEdit
+{
+border: none;
+color: #118eea;
+background-color: rgba(0,0,0, 0);
+}

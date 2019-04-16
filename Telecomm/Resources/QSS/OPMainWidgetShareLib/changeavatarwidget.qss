@@ -1,0 +1,82 @@
+QWidget#titleWidget
+{
+background-color: #0066c6;
+}
+
+QLabel#iconLabel
+{
+border-image: url(':/Ico/Resources/logo/logo.ico');
+}
+
+QLabel#titleLabel
+{
+color: rgb(255, 255, 255);
+}
+
+QPushButton#closeBtn
+{
+border-image: url(':/PerChat/Resources/person/close01.png');
+}
+QPushButton#closeBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+
+QWidget#widget_2
+{
+background-color: white;
+}
+
+QScrollArea#scrollArea
+{
+border: none;
+}
+
+QWidget#widget_4
+{
+background-color: white;
+}
+
+QPushButton#uploadBtn
+{
+border: none;
+border-radius: 5px;
+background-color: #0066c6;
+color: white;
+}
+
+QPushButton#uploadBtn:hover
+{
+color: #163e70;
+}
+
+QPushButton#confirmBtn
+{
+border: none;
+border-radius: 5px;
+background-color: #0066c6;
+color: white;
+}
+
+QPushButton#confirmBtn:hover
+{
+color: #163e70;
+}
+
+QPushButton#cancelBtn
+{
+border: none;
+border-radius: 5px;
+background-color: #0066c6;
+color: white;
+}
+QPushButton#cancelBtn:hover
+{
+color: #163e70;
+}
+
+
+
+
+
+

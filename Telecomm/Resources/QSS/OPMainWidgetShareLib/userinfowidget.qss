@@ -1,0 +1,118 @@
+
+QWidget#titleWidget
+{
+background-color: #0066c6;
+}
+
+QLabel#iconLabel
+{
+border-image: url(':/update/Resources/update/OpenPlanet.png');
+}
+
+
+
+QWidget#widget1{background-color: white;}
+QWidget#widget2{background-color: white;}
+QWidget#widget3{background-color: white;}
+QWidget#widget4{background-color: white;}
+QWidget#widget5{background-color: white;}
+QWidget#widget6{background-color: white;}
+
+QLabel#label{color: black;}
+QLabel#label_1{color: black;}
+QLabel#label_2{color: black;}
+QLabel#label_3{color: black;}
+QLabel#label_4{color: black;}
+QLabel#label_5{color: black;}
+QLabel#label_6{color: black;}
+
+
+QPushButton#minBtn
+{
+border-image: url(':/PerChat/Resources/person/minsize03.png');
+}
+QPushButton#minBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/minsize35.png');
+}
+
+QPushButton#quitBtn
+{
+border-image: url(':/PerChat/Resources/person/close01.png');
+}
+QPushButton#quitBtn:hover
+{
+border-image: url(':/PerChat/Resources/person/close03.png');
+}
+
+QLineEdit#nickNameEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: white;
+color: black
+}
+
+QPlainTextEdit#signTextEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: white;
+color: black
+}
+
+QComboBox
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: white;
+color: black
+}
+QComboBox::drop-down {
+   border: none;
+}
+QComboBox::down-arrow {
+    
+	border-image: url(:/TreeIcon/Resources/TreeIcon/tree_open.png);
+}
+
+QLineEdit#phoneEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: white;
+color: black
+}
+
+QLineEdit#mailEdit
+{
+border: 1px solid Gainsboro;
+border-radius: 5px;
+background-color: white;
+color: black
+}
+
+QPushButton#saveBtn
+{
+border: none;
+border-radius: 5px;
+background-color: #0066c6;
+color: white;
+}
+QPushButton#saveBtn:hover
+{
+color: #163e70;
+}
+
+QPushButton#closeBtn
+{
+border: none;
+border-radius: 5px;
+background-color: #0066c6;
+color: white;
+}
+QPushButton#closeBtn:hover
+{
+color: #163e70;
+}
+

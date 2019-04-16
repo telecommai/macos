@@ -1,0 +1,13 @@
+prefix=/usr/local/Cellar/botan/2.7.0
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include/botan-2
+
+Name: Botan
+Description: Crypto and TLS for C++11
+Version: 2.7.0
+
+Libs: -L${libdir} -lbotan-2 -fstack-protector -m64 -pthread -stdlib=libc++
+Libs.private: -lbz2 -lcrypto -ldl -lz -framework Security
+Cflags: -I${includedir}
+

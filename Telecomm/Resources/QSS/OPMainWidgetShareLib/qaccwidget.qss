@@ -1,0 +1,47 @@
+QWidget
+{
+background-color:white
+}
+
+QLabel#avatar
+{
+font: 75 16pt Microsoft YaHei;
+font-size:14px; 
+color:rgb(255, 255, 255);
+}
+
+QLabel#nickname
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:16px; 
+color:#000000;
+}
+
+QLabel#id
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:14px; 
+color:#999999;
+}
+
+QPushButton#pushButton{
+border:none;
+border-radius:4px;
+background-color:#108ee9;
+border-style:solid;
+font: 75 16pt Microsoft YaHei; 
+font-size:16px; 
+color:white;
+font-weight:Bold
+}
+QPushButton#pushButton:hover{
+border:none;
+border-radius:4px;
+background-color:red;
+border-style:solid;
+font: 75 16pt Microsoft YaHei; 
+font-size:16px; 
+color:white;
+font-weight:Bold
+}
+

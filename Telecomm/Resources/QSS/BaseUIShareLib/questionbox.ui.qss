@@ -1,0 +1,55 @@
+QWidget#contentWidget
+{
+background-color: #fafafa;
+border: 1px solid #0066cb;
+}
+
+QPushButton
+{
+background-color: #165ca3;
+color: white;
+border: none;
+border-radius: 4px;
+}
+QPushButton:hover
+{
+color: #163e70;
+}
+
+QPushButton#enterBtn
+{
+background-color: #165ca3;
+color: white;
+border: none;
+border-radius: 4px;
+}
+QPushButton#enterBtn:hover
+{
+color: #163e70;
+}
+
+QLabel#tipLabel
+{
+color: black;
+}
+
+QWidget#titleWidget
+{
+background-color: #0066cb; 
+
+}
+
+QPushButton#closeBtn
+{
+border-image: url(:/RedPacket/Resources/redPacket/close.png);
+}
+
+QLabel#icoLabel
+{
+border-image: url(:/Login/Resources/login/logo.png);
+}
+
+QLabel#titleLabel
+{
+color: #ffffff;
+}

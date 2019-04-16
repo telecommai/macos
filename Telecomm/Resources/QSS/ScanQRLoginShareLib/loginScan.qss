@@ -1,0 +1,31 @@
+QLabel#labelHeader
+{
+	border:none;
+}
+QLabel#labelNikeName
+{
+	background-color:#15447c;
+	color:#6182a5;
+}
+QLabel#labelChangeUser
+{
+	background-color:#15447c;
+	color:#165da3;
+}
+QLabel#labelChangeUser:hover
+{
+	background-color:#15447c;
+	color:#108ee9;
+}
+QPushButton#pushButtonLogin
+{
+	background-color:#165da3;
+	color:white;
+	border-radius:15px
+}
+QPushButton#pushButtonLogin:hover
+{
+	background-color:#108ee9;
+	color:white;
+	border-radius:15px
+}

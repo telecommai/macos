@@ -1,0 +1,105 @@
+QWidget#LeaveMessageWidget
+{
+background-color: #fafafa;
+border:1px solid #0066cb;
+}
+QTextEdit#MessageEdit
+{
+background-color: rgba(0,0,0,0);
+padding-left:10px;
+border: 1px solid #6a82a5;
+border-radius:4px;
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:#999999;
+}
+QLabel#MessageLable
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:black;
+}
+
+QPushButton#pushButtonEsc
+{
+background-color:#164e83;
+border-radius:5px;
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+
+QPushButton#pushButtonOK
+{
+background-color: #108ee9;
+border-radius:5px;
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:white;
+}
+QLabel#OtherNameLabel
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100;
+color:black;
+}
+QLineEdit#OtherNamelineEdit
+{
+background-color: rgba(0,0,0,0);
+padding-left:10px;
+border: 1px solid #6a82a5;
+border-radius:4px;
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:#999999;
+}
+QWidget#InfoWIdget
+{
+background-color: rgba(0,0,0,0);
+border-right: 1px solid #ebebec;
+}
+QLabel#idLabel
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:14px;
+font-weight:100 ;
+color:black;
+}
+QLabel#NameLabel
+{
+font: 75 16pt Microsoft YaHei; 
+font-size:15px;
+font-weight:100 ;
+color:black;
+}
+QWidget#titleBar
+{
+background-color: #0066cb;
+}
+QPushButton#closeButton
+{
+border-image: url(:/Login/Resources/login/pclogin_title_close.png);
+}
+QPushButton#closeButton:hover
+{
+border-image: url(:/Login/Resources/login/title_close_hover.png);
+}
+QLabel#iconLabel_6
+{
+border-image: url(':/Login/Resources/login/logo.png')
+}
+QLabel#titleLabel_6
+{
+background-color: rgba(0,0,0,0);
+color: white;
+}
+
+
+
+
