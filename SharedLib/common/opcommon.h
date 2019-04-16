@@ -15,11 +15,11 @@ struct WalletInfo
 	QString address;
 	QString privkey;
 	QString pubkey;
-	QString fromInviteCode; 
-	QString inviteCode;     
-	QString inviteCodeUseCount; 
-	QString userIdMd5;   
-	QString planet;           
+	QString fromInviteCode;  //谁邀请的邀请码
+	QString inviteCode;      //邀请码
+	QString inviteCodeUseCount; //邀请码用户账户
+	QString userIdMd5;     //用户ID MD5
+	QString planet;            //星球
 };
 
 struct AddressInfo
