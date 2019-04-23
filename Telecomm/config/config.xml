@@ -23,7 +23,7 @@
 	<shareMemoryName>Telecomm</shareMemoryName>
   </ShareMemory> 
   <version> 
-    <number>1.0.1</number>  
+    <number>1.0.2</number>  
     <appid>macTelecomm</appid>  
     <name>public</name> 
 	<update>1.16</update>
